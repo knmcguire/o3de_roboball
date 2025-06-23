@@ -17,7 +17,8 @@ If this is your first time working with O3DE make sure that you go through the f
 
 Then do the following:
 *  Create a project called "RoboBall", based on the default Project template ([O3DE tutorial on creating projects](https://www.docs.o3de.org/docs/welcome-guide/create/))
-* Create a level based on the default level template called "Main" ([O3DE Tutorial on creating levels](https://www.docs.o3de.org/docs/learning-guide/tutorials/environments/create-a-level/))
+* Build the project and open up the editor of the project
+* On the welcome screen a level, select Open... and navigate to Levels\DefaultLevel and select DefaultLevel.prefab.
 
 You should be able to see the following level now:
 
@@ -31,7 +32,6 @@ First select the shader ball and hide it from the entity editor
 
 Then do the following:
 
-* On the scene or Entity editor, do ctrl + right mouse click or ctrl+..dd.d 
-* Select "Create new Entity"
-* Select the new entity and rename it to 'RoboBall'
+* On the scene or Entity editor, do `Ctrl + right mouseclick` and select Create Entity or `Ctrl+Alt+N`
+* Select the newly created entity and rename it to 'RoboBall' in the inspector
 
