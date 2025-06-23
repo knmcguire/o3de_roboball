@@ -19,7 +19,8 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
-                    "Entity_[1176639161715]"
+                    "Entity_[1176639161715]",
+                    "Entity_[786136280558]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -374,7 +375,8 @@
                 },
                 "Component_[16247165675903986673]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 16247165675903986673
+                    "Id": 16247165675903986673,
+                    "VisibilityFlag": false
                 },
                 "Component_[18082433625958885247]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -402,7 +404,7 @@
                                     "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
                                     "subId": 281415304
                                 },
-                                "assetHint": "objects/shaderball/shaderball_default_1m.azmodel"
+                                "assetHint": "objects/shaderball/shaderball_default_1m.fbx.azmodel"
                             }
                         }
                     }
@@ -550,6 +552,49 @@
                 "Component_[931091830724002070]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[786136280558]": {
+            "Id": "Entity_[786136280558]",
+            "Name": "RoboBall",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10232731042820742742
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7610983933760671406
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6501391586778395843
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11328405294280766989
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10396833288980720513
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8214076488378553282
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10494720108457697748
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13792855030035860954
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18396285616695134327,
+                    "Parent Entity": "Entity_[1146574390643]"
                 }
             }
         }
