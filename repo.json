@@ -1,0 +1,14 @@
+{
+    "repo_name": "o3de_roboball",
+    "repo_uri": "https://github.com/knmcguire/o3de_roboball.git",
+    "$schemaVersion": "1.0.0",
+    "origin": "o3de",
+    "origin_url": "${OriginURL}",
+    "summary": "${Summary}",
+    "additional_info": "${AdditionalInfo}",
+    "last_updated": "",
+    "gems_data": [],
+    "projects_data": [],
+    "templates_data": [],
+    "repos": []
+}
