@@ -100,5 +100,7 @@ Now when you press play you should see this:
 
 We now have a bouncy ball!
 
+Go to part 3 of the [bouncy ball tutorial](roboball_tutorial_3.md)
+
 
 
