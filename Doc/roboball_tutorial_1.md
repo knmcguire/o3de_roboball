@@ -28,13 +28,12 @@ You should be able to see the following level now:
 
 ![tutorial_1_hide_shaderball](images/tutorial_1_hide_shaderball.png)
 
-First select the shader ball and hide it from the entity editor
-
+First select the shader ball and delete it from the entity editor ('rightclick' on it and Delete)
 
 
 Then create a new entity called roboball
 
-1. On the scene or Entity editor, do `Ctrl + right mouseclick` and select Create Entity or `Ctrl+Alt+N`
+1. On the scene or Entity editor, do `right mouseclick` and select Create Entity or `Ctrl+Alt+N`
 1. Select the newly created entity and rename it to 'RoboBall' in the inspector
 
 ![tutorial_1_addmesh](images/tutorial_1_addmesh.png)
@@ -54,6 +53,6 @@ You should now see this. As you can notice the ball is within the floor, so let'
 1. Open up the transform component 
 1. add '0,5' meters in the z-axis
 
-The viewport should now show this
+The viewport should now show this:
 
 ![tutorial_1_sphere_asset](images/tutorial_1_sphere_asset.png)
