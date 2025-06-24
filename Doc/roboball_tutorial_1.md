@@ -22,11 +22,11 @@ Then do the following:
 
 You should be able to see the following level now:
 
-![tutorial_1_editor](images/tutorial_1_editor.png)
+![editor](images/editor.png)
 
 ## Create a ball asset
 
-![tutorial_1_hide_shaderball](images/tutorial_1_hide_shaderball.png)
+![hide_shaderball](images/hide_shaderball.png)
 
 First select the shader ball and delete it from the entity editor ('rightclick' on it and Delete)
 
@@ -36,7 +36,7 @@ Then create a new entity called roboball
 1. On the scene or Entity editor, do `right mouseclick` and select Create Entity or `Ctrl+Alt+N`
 1. Select the newly created entity and rename it to 'RoboBall' in the inspector
 
-![tutorial_1_addmesh](images/tutorial_1_addmesh.png)
+![addmesh](images/addmesh.png)
 
 Then let's add a sphere:
 
@@ -45,14 +45,14 @@ Then let's add a sphere:
 1. Next to Model Assest click on the folder icon
 navigate PrimativeAssets > Assets > Objects > _Primitives > _Sphere_1x1.fbx
 
-![tutorial_1_addtransform](images/tutorial_1_addtransform.png)
+![addtransform](images/addtransform.png)
 
 
 You should now see this. As you can notice the ball is within the floor, so let's move it up.
 
 1. Open up the transform component 
-1. add '0,5' meters in the z-axis
+1. add '`0,5` ' meters in the z-axis
 
 The viewport should now show this:
 
-![tutorial_1_sphere_asset](images/tutorial_1_sphere_asset.png)
+![sphere_asset](images/sphere_asset.png)
