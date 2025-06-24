@@ -48,8 +48,8 @@ It drops with a bounce now!
 ## Add a different material
 
 We want to have a constant bounce with this ball, so that it bounces around like a skippy ball. We've got to adjust the material for that.
-
 ![add_rubber_material](images/add_rubber_material.png)
+
 
 1. Go to the `Physics Primitive Collider` commponent
 1. Select the folder icon next to `Physics Materials > Entire Object`
@@ -58,7 +58,41 @@ We want to have a constant bounce with this ball, so that it bounces around like
 
 
 
+Now press the play button. You'll notice that there is a slightly bigger bounce!
 
+
+
+![slightly_bigger_bounce](images/slightly_bigger_bounce.gif)
+
+## More Bounce!
+
+This is getting in the right direction, but we want a redicioulus amount of bounce! Let's edit this material to achieve that!
+
+
+![change_material](images/change_material.png)
+
+1. Open up the asset editor, which is next the folder icon next to `Physics Materials > Entire Object`
+1. Change the materials properties to:
+    * Dynamic Friction: 0,0
+    * Static Friction: 0,0
+    * Restititution: 1,0
+    * Friction Combine: Minimum
+    * Restitution combine: Maximum
+    * Density: 1000.0 kg/m^2
+1. Go to `File > Save as...`
+1. Go to the Assest folder of your project
+1. Create a new folder called `Materials`
+1. Save the material in that folder and call it `Bouncy`
+
+
+![add_bouncy_material](images/add_bouncy_material.png)
+
+Close the Asset Editor and let's add the new material:
+
+1. the folder icon next to `Physics Materials > Entire Object`
+1. Navigate to your project and Got to Assets > Materials 
+1. Select `Bouncy.physixsmaterial`
+1. Press `OK`
 
 
 

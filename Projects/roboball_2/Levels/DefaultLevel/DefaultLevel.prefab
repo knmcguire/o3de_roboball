@@ -517,10 +517,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
+                                            "guid": "{2DE2D078-8D05-59A7-AD7B-D6FB0D15BB69}",
                                             "subId": 1
                                         },
-                                        "assetHint": "physx/rubber.physicsmaterial"
+                                        "assetHint": "assets/materials/bouncy.physicsmaterial"
                                     }
                                 }
                             ]
@@ -563,17 +563,17 @@
                     "Id": 16890049986341831200,
                     "Configuration": {
                         "entityId": "",
-                        "Mass": 523.5988159179688,
+                        "Mass": 628.3185424804688,
                         "Inertia tensor": [
-                            52.35987854003906,
+                            62.831851959228516,
                             0.0,
                             0.0,
                             0.0,
-                            52.35987854003906,
+                            62.831851959228516,
                             0.0,
                             0.0,
                             0.0,
-                            52.35987854003906
+                            62.831851959228516
                         ]
                     }
                 },
