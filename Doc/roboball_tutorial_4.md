@@ -24,6 +24,7 @@ local Movement = {
 	Properties = {
 	}
 }
+
 function Movement:OnActivate()
 	self.TickNotificationBus = TickBus.Connect(self);
 end
@@ -50,4 +51,34 @@ Now play the game and observe it slowely going forward.
 
 ![slow_forward](images/slow_forward.gif)
 
+## Add a property
 
+That goes a bit too slow, so let's fine tune it a bit. For that we need to add a property to the Lua script.
+
+Add the following to properties:
+
+```lua
+...
+	Properties = {
+		ImpulseSize = 1.0,
+	} 
+...
+```
+
+And add the ImpulseSize property to LinearImpulse
+
+```lua
+...
+	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(self.Properties.ImpulseSize, 0.0, 0.0));
+...
+```
+
+Save the script and see the following appear in the Lua Script component:
+
+![lua_properties](images/lua_properties.png)
+
+Change that value to `10.0` and run the game again.
+
+![fast_forward](images/fast_forward.gif)
+
+The ball is going forward must faster... a bit too fast perhaps?!
