@@ -563,23 +563,43 @@
                     "Id": 16890049986341831200,
                     "Configuration": {
                         "entityId": "",
-                        "Mass": 628.3185424804688,
+                        "Mass": 523.5988159179688,
                         "Inertia tensor": [
-                            62.831851959228516,
+                            52.35987854003906,
                             0.0,
                             0.0,
                             0.0,
-                            62.831851959228516,
+                            52.35987854003906,
                             0.0,
                             0.0,
                             0.0,
-                            62.831851959228516
+                            52.35987854003906
                         ]
                     }
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 4898725165781306884
+                },
+                "ScriptEditorComponent": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 1662065421899007444,
+                    "ScriptComponent": {
+                        "Script": {
+                            "assetId": {
+                                "guid": "{D6366F2C-9965-5D6C-B0E8-872CF9AD986B}",
+                                "subId": 1
+                            },
+                            "assetHint": "scripts/roboball_helloworld.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{D6366F2C-9965-5D6C-B0E8-872CF9AD986B}",
+                            "subId": 1
+                        },
+                        "assetHint": "scripts/roboball_helloworld.luac"
+                    }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
