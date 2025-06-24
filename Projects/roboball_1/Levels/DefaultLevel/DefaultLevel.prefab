@@ -559,6 +559,21 @@
             "Id": "Entity_[786136280558]",
             "Name": "RoboBall",
             "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16524252221424978127,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 274434668
+                                },
+                                "assetHint": "objects/_primitives/_sphere_1x1.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 10232731042820742742
@@ -573,7 +588,20 @@
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
-                    "Id": 11328405294280766989
+                    "Id": 11328405294280766989,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18396285616695134327
+                        },
+                        {
+                            "ComponentId": 16524252221424978127,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6260220192876058827,
+                            "SortIndex": 2
+                        }
+                    ]
                 },
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
@@ -594,7 +622,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 18396285616695134327,
-                    "Parent Entity": "Entity_[1146574390643]"
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.5
+                        ]
+                    }
                 }
             }
         }
