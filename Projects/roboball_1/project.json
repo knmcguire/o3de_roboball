@@ -1,0 +1,47 @@
+{
+    "project_name": "roboball",
+    "version": "1.0.0",
+    "project_id": "{A3030318-E261-4D1E-A344-5DF61A15EE18}",
+    "origin": "The primary repo for roboball goes here: i.e. http://www.mydomain.com",
+    "license": "What license roboball uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "roboball",
+    "summary": "A short description of roboball.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "roboball"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-sdk",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "roboball",
+    "gem_names": [
+        "roboball",
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "MiniAudio",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "RemoteTools"
+    ],
+    "engine_version": "2.4.0"
+}
