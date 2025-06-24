@@ -26,12 +26,34 @@ You should be able to see the following level now:
 
 ## Create a ball asset
 
-First select the shader ball and hide it from the entity editor
-
 ![tutorial_1_hide_shaderball](images/tutorial_1_hide_shaderball.png)
 
-Then do the following:
+First select the shader ball and hide it from the entity editor
 
-* On the scene or Entity editor, do `Ctrl + right mouseclick` and select Create Entity or `Ctrl+Alt+N`
-* Select the newly created entity and rename it to 'RoboBall' in the inspector
 
+
+Then create a new entity called roboball
+
+1. On the scene or Entity editor, do `Ctrl + right mouseclick` and select Create Entity or `Ctrl+Alt+N`
+1. Select the newly created entity and rename it to 'RoboBall' in the inspector
+
+![tutorial_1_addmesh](images/tutorial_1_addmesh.png)
+
+Then let's add a sphere:
+
+1. Click 'Add Component'
+1. Add a Mesh component
+1. Next to Model Assest click on the folder icon
+navigate PrimativeAssets > Assets > Objects > _Primitives > _Sphere_1x1.fbx
+
+![tutorial_1_addtransform](images/tutorial_1_addtransform.png)
+
+
+You should now see this. As you can notice the ball is within the floor, so let's move it up.
+
+1. Open up the transform component 
+1. add '0,5' meters in the z-axis
+
+The viewport should now show this
+
+![tutorial_1_sphere_asset](images/tutorial_1_sphere_asset.png)
