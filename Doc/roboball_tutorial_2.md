@@ -49,6 +49,13 @@ It drops with a bounce now!
 
 We want to have a constant bounce with this ball, so that it bounces around like a skippy ball. We've got to adjust the material for that.
 
+![add_rubber_material](images/add_rubber_material.png)
+
+1. Go to the `Physics Primitive Collider` commponent
+1. Select the folder icon next to `Physics Materials > Entire Object`
+1. Go to `PhysX > Common > Assets > PhysX` and select `Rubber.physxmaterial`
+1. Press OK
+
 
 
 

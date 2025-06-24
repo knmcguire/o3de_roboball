@@ -514,7 +514,14 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "Entire object",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "physx/rubber.physicsmaterial"
+                                    }
                                 }
                             ]
                         }
