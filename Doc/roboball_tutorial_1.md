@@ -56,3 +56,5 @@ You should now see this. As you can notice the ball is within the floor, so let'
 The viewport should now show this:
 
 ![sphere_asset](images/sphere_asset.png)
+
+Jeej! You have a ball! Go to [page 2](roboball_tutorial_2.md)
