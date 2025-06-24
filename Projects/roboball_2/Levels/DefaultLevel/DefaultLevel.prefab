@@ -507,6 +507,22 @@
                         }
                     }
                 },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5941751178453814414,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1
+                    }
+                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 8116490376331087654
@@ -534,6 +550,25 @@
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 1966472403037852144
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 10948230460403532977,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 999.9999389648438,
+                        "Inertia tensor": [
+                            166.6666717529297,
+                            0.0,
+                            0.0,
+                            0.0,
+                            166.6666717529297,
+                            0.0,
+                            0.0,
+                            0.0,
+                            166.6666717529297
+                        ]
+                    }
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
