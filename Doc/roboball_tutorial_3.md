@@ -63,3 +63,76 @@ Exited game mode
 
 So `OnActivate` is started when the game is activated, and `onDeactivate` is activated when the game is ended (when you press `esc`).
 
+## Hello, Again!
+
+Now I'd like it the ball to talk to me all the time! So let's add a tick notification bus to it.
+
+Connect to the tick notification bus in OnActivate
+```lua
+	self.TickNotificationBus = TickBus.Connect(self);
+```
+
+Add a new function OnTick()
+
+```lua
+function HelloWorld:OnTick(deltaTime, currentTime)
+ 	Debug.Log("Hello again!")
+end
+```
+
+And disconnect from the bus when the game ends in DeActivate()
+```lua
+	self.TickNotificationBus:Disconnect();
+```
+
+The full script should like like this:
+
+
+```lua
+local HelloWorld = {
+	Properties = {
+	}
+}
+function HelloWorld:OnActivate()
+	Debug.Log("Hello, World!")
+	self.TickNotificationBus = TickBus.Connect(self);
+end
+
+function HelloWorld:OnTick(deltaTime, currentTime)
+ 	Debug.Log("Hello again!")
+end
+
+function HelloWorld:OnDeactivate()
+	Debug.Log("Goodbye, World!")
+	self.TickNotificationBus:Disconnect();
+end
+
+return HelloWorld
+
+```
+
+When running the came you should see this in the console:
+
+```
+Entered game mode
+(Script) - Hello, World!
+(Spawnables) - Entities from new root spawnable 'Root.spawnable' are ready (generation: 0).
+(Script) - Hello again!
+(Script) - Hello again!
+(Script) - Hello again!
+(Script) - Hello again!
+...
+(Script) - Hello again!
+(Script) - Hello again!
+(Script) - Hello again!
+(Script) - Hello again!
+(Script) - Goodbye, World!
+Exited game mode
+
+```
+
+## Go to the next part
+
+You've added a Lua script! Let's go to the next part to do something with the physics in that script
+
+`
