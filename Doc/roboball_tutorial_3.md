@@ -29,4 +29,37 @@ Let's make a simple lua script
 
 ![add_lua_script](images/add_lua_script.png)
 
+## Hello World!
+
+Now back in the Lua Editor in the RoboBall_HelloWorld.lua enter the following:
+```lua
+local HelloWorld = {
+	Properties = {
+	}
+}
+function HelloWorld:OnActivate()
+	Debug.Log("Hello, World!")
+end
+
+function HelloWorld:OnTick(deltaTime, currentTime)
+end
+
+function HelloWorld:OnDeactivate()
+	Debug.Log("Goodbye, World!")
+end
+
+return HelloWorld
+```
+
+The console in the O3DE editor now should say
+
+```
+Entered game mode
+(Script) - Hello, World!
+(Spawnables) - Entities from new root spawnable 'Root.spawnable' are ready (generation: 0).
+(Script) - Goodbye, World!
+Exited game mode
+```
+
+So `OnActivate` is started when the game is activated, and `onDeactivate` is activated when the game is ended (when you press `esc`).
 
