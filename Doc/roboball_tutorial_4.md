@@ -37,3 +37,17 @@ end
 
 return Movement
 ```
+
+Now add a linear impulse at each tick of the game:
+
+```lua
+function Movement:OnTick(deltaTime, currentTime)
+    RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(0, 1, 0));
+end
+```
+
+Now play the game and observe it slowely going forward.
+
+![slow_forward](images/slow_forward.gif)
+
+

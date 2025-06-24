@@ -7,6 +7,7 @@ function Movement:OnActivate()
 end
 
 function Movement:OnTick(deltaTime, currentTime)
+	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(1.0 , 0,  0));
 end
 
 function Movement:OnDeactivate()
