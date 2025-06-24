@@ -94,8 +94,11 @@ Close the Asset Editor and let's add the new material:
 1. Select `Bouncy.physixsmaterial`
 1. Press `OK`
 
+Now when you press play you should see this:
 
+![full_bounce](images/full_bounce.gif)
 
+We now have a bouncy ball!
 
 
 
