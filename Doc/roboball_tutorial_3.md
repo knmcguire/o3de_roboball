@@ -1,6 +1,6 @@
 # Roboball Tutorial 3
 
-If you completed [part 3 of the roboball tutorial](roboball_tutorial_3.md) you should have a bouncy ball like this. If not, please complete it first or start with the project in /Projects/roboball_2. 
+If you completed [part 2 of the roboball tutorial](roboball_tutorial_2.md) you should have a bouncy ball like this. If not, please complete it first or start with the project in /Projects/roboball_2. 
 
 ![full_bounce](images/full_bounce.gif)
 
@@ -135,4 +135,3 @@ Exited game mode
 
 You've added a Lua script! Let's go to the next part to do something with the physics in that script
 
-`
