@@ -17,12 +17,14 @@ If this is your first time working with O3DE make sure that you go through the f
 
 Then do the following:
 *  Create a project called "RoboBall", based on the default Project template ([O3DE tutorial on creating projects](https://www.docs.o3de.org/docs/welcome-guide/create/))
-* Build the project and open up the editor of the project
+* Build the project and open up the editor of the project. .
 * On the welcome screen a level, select Open... and navigate to Levels\DefaultLevel and select DefaultLevel.prefab.
 
 You should be able to see the following level now:
 
 ![editor](images/editor.png)
+
+> This can take up to 10-20 minutes to completely finish and all the assests to be processes. Make sure to wait until the bottom right says `Pending Jobs: 0` and no failed build/jobs.
 
 ## Create a ball asset
 
