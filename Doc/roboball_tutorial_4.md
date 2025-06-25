@@ -130,4 +130,4 @@ Then add the camera rig component:
 ![follow_ball](images/follow_ball.gif)
 
 
-Now the camera will follow the ball! You can continue to Part 5.
+Now the camera will follow the ball! You can continue to [Part 5](roboball_tutorial_5.md).
