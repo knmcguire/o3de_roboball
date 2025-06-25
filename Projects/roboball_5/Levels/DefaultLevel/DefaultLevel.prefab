@@ -627,24 +627,24 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 920817669,
                                     "name": "ImpulseSize",
-                                    "value": 10.0
+                                    "value": 1.0
                                 }
                             ]
                         },
                         "Script": {
                             "assetId": {
-                                "guid": "{D5850A83-42EB-51F8-ABB3-06D500B26EFB}",
+                                "guid": "{58AFFE4B-44FA-580E-BE15-8F03CF56A576}",
                                 "subId": 1
                             },
-                            "assetHint": "scripts/roboball_movement.luac"
+                            "assetHint": "scripts/roboball_control.luac"
                         }
                     },
                     "ScriptAsset": {
                         "assetId": {
-                            "guid": "{D5850A83-42EB-51F8-ABB3-06D500B26EFB}",
+                            "guid": "{58AFFE4B-44FA-580E-BE15-8F03CF56A576}",
                             "subId": 1
                         },
-                        "assetHint": "scripts/roboball_movement.luac"
+                        "assetHint": "scripts/roboball_control.luac"
                     }
                 },
                 "TransformComponent": {

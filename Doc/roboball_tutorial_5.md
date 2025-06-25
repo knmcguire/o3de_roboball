@@ -49,6 +49,35 @@ Then let's add the keybindings to the input component
 1. Navigate to `roboball > Scripts`
 1. Select `keyboard.inputbindings` and press `OK`
 
-You should now see keyboard in the input component
+You should now see keyboard in the input component.
+
+## Add Event bus to Lua script
+
+Open up the Lua editor and start a new script called 'RoboBall_Control.Lua'. Input the following:
+
+```lua
+local Control = {
+	Properties = {
+		ImpulseSize = 1.0,
+	}
+}
+
+function Control:OnActivate()
+	self.TickNotificationBus = TickBus.Connect(self);
+end
+
+function Control:OnTick(deltaTime, currentTime)
+	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(self.Properties.ImpulseSize, 0.0, 0.0));
+end
+
+function Control:OnDeactivate()
+	self.TickNotificationBus:Disconnect();
+end
+
+return Control
+```
+Add the new script to the Lua Script component:
+
+![add_control_script](images/add_control_script.png)
 
 
