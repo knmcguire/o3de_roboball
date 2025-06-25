@@ -82,3 +82,26 @@ Change that value to `10.0` and run the game again.
 ![fast_forward](images/fast_forward.gif)
 
 The ball is going forward must faster... a bit too fast perhaps?!
+
+## 	Add an Camera Rig
+
+The ball is bouncing away too quickly and out of our reach... but currently there is no way to follow it. Let's add a Camera Rig to the Camera entity.
+
+But for this to work, we need the starting point Gem enabled for the project.
+
+![configure_gems](images/configure_gems.png)
+
+Then look up for 'Starting Point Camera' GEM:
+
+
+![starting_point_camera_gem](images/starting_point_camera_gem.png)
+
+1. In the search bar, look for `Starting Point Camera`
+1. Slide to Activate
+1. Press OK on the bottom
+
+You'll get a warning that you'll need to rebuild your project, and that is exactly what you'll need to do! 
+
+1. Rebuild the RoboBall project
+1. Wait for a few minutes
+1. Reopen the project once finished
