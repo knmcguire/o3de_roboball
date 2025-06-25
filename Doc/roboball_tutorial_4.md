@@ -85,7 +85,7 @@ The ball is going forward must faster... a bit too fast perhaps?!
 
 ## 	Add an Camera Rig
 
-The ball is bouncing away too quickly and out of our reach... but currently there is no way to follow it. Let's add a Camera Rig to the Camera entity.
+The ball is bouncing away too quickly and out of our reach... but currently you'll need to manually follow it, which is a bit of a pain. So, let's add a Camera Rig to the Camera entity.
 
 But for this to work, we need the starting point Gem enabled for the project.
 
@@ -105,3 +105,29 @@ You'll get a warning that you'll need to rebuild your project, and that is exact
 1. Rebuild the RoboBall project
 1. Wait for a few minutes
 1. Reopen the project once finished
+
+add_camera_rig_component
+
+![add_camera_rig_component](images/add_camera_rig_component.png)
+
+Then add the camera rig component:
+
+1. Select the Camera entity in Atom Default environment in the ENtithy Outliner
+2. Disable the `Fly Camera Input`
+3. Add the `Camera Rig` component
+1. Next to Target Acquirers, press the '+' button
+1. Add the `AcquiresByEntityID` class
+1. Drag the RoboBall Entity in the field `Entity Target` field
+1. At `Target Behaviors`, Press the `+` button
+1. Add the `FollowTargetFromAngle`class and input the following
+    * Angle: `-90`
+	* Rotation type: `yaw`
+	* Distance from Target: `5`
+
+> The Camera rig component documentation has more information if you want to know more https://docs.o3de.org/docs/user-guide/components/reference/camera/camera-rig/
+
+
+![follow_ball](images/follow_ball.gif)
+
+
+Now the camera will follow the ball! You can continue to Part 5.

@@ -223,6 +223,27 @@
             "Id": "Entity_[1163754259827]",
             "Name": "Camera",
             "Components": {
+                "CameraRigComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9026412026733190997,
+                    "m_template": {
+                        "$type": "CameraRigComponent",
+                        "Target Acquirers": [
+                            {
+                                "$type": "AcquireByEntityId",
+                                "Entity Target": "Entity_[359586631594]"
+                            }
+                        ],
+                        "Camera Transform Behaviors": [
+                            {
+                                "$type": "FollowTargetFromAngle",
+                                "Angle": -90.0,
+                                "Rotation Type": 2,
+                                "Distance From Target": 5.0
+                            }
+                        ]
+                    }
+                },
                 "Component_[11895140916889160460]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 11895140916889160460
@@ -267,18 +288,20 @@
                 },
                 "Component_[5265045084611556958]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5265045084611556958
+                    "Id": 5265045084611556958,
+                    "DisabledComponents": {
+                        "Component_[7255796294953281766]": {
+                            "$type": "GenericComponentWrapper",
+                            "Id": 7255796294953281766,
+                            "m_template": {
+                                "$type": "FlyCameraInputComponent"
+                            }
+                        }
+                    }
                 },
                 "Component_[7169798125182238623]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7169798125182238623
-                },
-                "Component_[7255796294953281766]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7255796294953281766,
-                    "m_template": {
-                        "$type": "FlyCameraInputComponent"
-                    }
                 },
                 "Component_[8866210352157164042]": {
                     "$type": "EditorInspectorComponent",
