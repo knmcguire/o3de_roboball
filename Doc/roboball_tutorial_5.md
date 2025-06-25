@@ -30,13 +30,13 @@ Here we will show how to make keyboard ba
 1. Put this in the fields:
     * input Device: Keyboard
     * Input Name: keyboard_key_navigation_arrow_right
-    * Event Value: 1,0
+    * Event Value: -1,0
     * Dead zone: 0,0
 1. Add another class of the type `EventInputMap`
 1. Put this in the fields:
     * input Device: Keyboard
     * Input Name: keyboard_key_navigation_arrow_left
-    * Event Value: -1,0
+    * Event Value: 1,0
     * Dead zone: 0,0
 1. Save the input binding
 
@@ -80,4 +80,30 @@ Add the new script to the Lua Script component:
 
 ![add_control_script](images/add_control_script.png)
 
+Now add the following to properties:
 
+```lua
+		InputEventName = ""
+```
+
+And these two lines to OnActivate():
+
+```lua
+	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
+	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
+```
+
+And the Bus disconnect in OnDisconnect():
+
+```lua
+	 self.InputNotificationBus:Disconnect();
+```
+
+Now add the function that will react when either of the 2 arrow buttons are being held:
+
+```lua
+function Control:OnPressed (value)
+ 	local ImpulseDirection = value * self.Properties.ImpulseSize
+	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(0, ImpulseDirection, 0));
+ end
+```

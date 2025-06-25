@@ -627,7 +627,13 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 920817669,
                                     "name": "ImpulseSize",
-                                    "value": 1.0
+                                    "value": 3.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyString",
+                                    "id": 3073782630,
+                                    "name": "InputEventName",
+                                    "value": "control"
                                 }
                             ]
                         },
