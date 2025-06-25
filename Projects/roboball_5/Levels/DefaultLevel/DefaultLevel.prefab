@@ -604,6 +604,13 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 4898725165781306884
                 },
+                "InputConfigurationComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 11815347080367452041,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent"
+                    }
+                },
                 "ScriptEditorComponent": {
                     "$type": "ScriptEditorComponent",
                     "Id": 1662065421899007444,
