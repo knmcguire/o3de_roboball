@@ -608,7 +608,13 @@
                     "$type": "GenericComponentWrapper",
                     "Id": 11815347080367452041,
                     "m_template": {
-                        "$type": "InputConfigurationComponent"
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{2F1C6BAD-57DE-56CB-A966-86B0821382F4}"
+                            },
+                            "assetHint": "scripts/keyboard.inputbindings"
+                        }
                     }
                 },
                 "ScriptEditorComponent": {
