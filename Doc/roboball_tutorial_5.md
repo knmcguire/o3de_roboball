@@ -107,3 +107,10 @@ function Control:OnPressed (value)
 	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(0, ImpulseDirection, 0));
  end
 ```
+
+Now you should be able to control the ball somewhat with the control keys, which should result in this with ImpulseSize being 5.0
+
+
+![ball_controll](images/ball_control.gif)
+
+Now you can control your ball!
