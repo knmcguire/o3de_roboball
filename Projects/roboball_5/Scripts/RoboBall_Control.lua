@@ -16,14 +16,14 @@ function Control:OnTick(deltaTime, currentTime)
 end
 
 function Control:OnPressed (value)
- 	local ImpulseDirection = value * self.Properties.ImpulseSize
+	local ImpulseDirection = value * self.Properties.ImpulseSize
 	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(0, ImpulseDirection, 0));
  end
 
 
 function Control:OnDeactivate()
 	self.TickNotificationBus:Disconnect();
-	 self.InputNotificationBus:Disconnect();
+	self.InputNotificationBus:Disconnect();
 
 end
 
