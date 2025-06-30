@@ -67,11 +67,19 @@ Add the following onTick:
 
 ´´´
 local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
-Debug.Log(Rot)
+Debug.Log(Rot.z)
 ´´´
+
+If you run the simulation now you should be able to see the yaw orientation in radiants.
+
+
 
 
 For more information go:
 
 https://www.docs.o3de.org/docs/user-guide/components/reference/transform/
+
+## Apply rotation to impulse
+
+
 
