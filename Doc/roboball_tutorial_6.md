@@ -59,5 +59,19 @@ Play the game again and use the arrow keys so you should see this.
 
 Now the rotation of the mesh changes, but this doesn't change the direction of the forward impulse so it will keep going forward. 
 
+## Get Entity orientation
 
+We would like to know where the roboball is looking at and appy the linear impulse on that angle. Let's get the orientation in yaw.
+
+Add the following onTick:
+
+´´´
+local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
+Debug.Log(Rot)
+´´´
+
+
+For more information go:
+
+https://www.docs.o3de.org/docs/user-guide/components/reference/transform/
 
