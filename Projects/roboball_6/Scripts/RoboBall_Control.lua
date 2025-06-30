@@ -17,7 +17,9 @@ end
 
 function Control:OnPressed (value)
 	local ImpulseDirection = value * self.Properties.ImpulseSize
-	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(0, ImpulseDirection, 0));
+-- 	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(0, ImpulseDirection, 0));
+	RigidBodyRequestBus.Event.ApplyAngularImpulse(self.entityId, Vector3(0.0, 0.0, ImpulseDirection));
+
  end
 
 

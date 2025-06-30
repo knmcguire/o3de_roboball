@@ -53,5 +53,11 @@ Comment out the following apply linear impulse and add a apply angularimpulse in
 	RigidBodyRequestBus.Event.ApplyAngularImpulse(self.entityId, Vector3(0.0, 0.0, ImpulseDirection));
 ```
 
+Play the game again and use the arrow keys so you should see this.
+
+![rotating_texture](images/rotating_texture.gif).
+
+Now the rotation of the mesh changes, but this doesn't change the direction of the forward impulse so it will keep going forward. 
+
 
 
