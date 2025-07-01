@@ -648,6 +648,12 @@
                             "Properties": [
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 3313362053,
+                                    "name": "AngularVelocity",
+                                    "value": 1.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 920817669,
                                     "name": "ImpulseSize",
                                     "value": 3.0
@@ -657,6 +663,11 @@
                                     "id": 3073782630,
                                     "name": "InputEventName",
                                     "value": "control"
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1221150607,
+                                    "name": "RotationDirection"
                                 }
                             ]
                         },

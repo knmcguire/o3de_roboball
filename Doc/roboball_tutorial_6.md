@@ -97,3 +97,4 @@ If you play the game again you see that the linear impulse at least is rotated t
 ![](images/control_with_impulse.gif)
 
 
+You can go now to ![part 7](roboball_tutorial_7.md)!
