@@ -122,12 +122,12 @@ local Control = {
 
 function Control:OnActivate()
 	self.TickNotificationBus = TickBus.Connect(self);
+	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
+	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
 end
 
 function Control:OnTick(deltaTime, currentTime)
 	RigidBodyRequestBus.Event.ApplyLinearImpulse(self.entityId, Vector3(self.Properties.ImpulseSize, 0.0, 0.0));
-	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
-	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
 end
 
 function Control:OnPressed (value)
