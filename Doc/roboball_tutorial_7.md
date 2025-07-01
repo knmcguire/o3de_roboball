@@ -106,3 +106,41 @@ And the ball control should look like this
 ![bounce_with_rotation](images/bounce_with_rotation.gif)
 
 ## Improve the Camera rig. 
+
+So you probably noticed that when you rotate the ball, the camera doesn't rotate around it. That is something that we gamers are not really used to so let's change that.
+
+Let's first reposition the camera to a new transform.
+
+* Translate: -5, 0, 2
+* Rotate: 0, 0, -90
+
+![reposition_camera](images/reposition_camera.png).
+
+Get a quick view through the editor camera if the position is okay
+
+
+Then remove the transform behavior element called 'FollowTargetFromAngle'
+
+Then add a FollowTarget from Distance instead with the following:
+
+* Follow distance: 5 m
+* Minimum follow distance: 1
+* maximum follow distance: 10
+
+Play the game and see the difference. It still followes it, but when you rotate it seems to not face the entity. 
+
+Let's add the `FaceTarget` element at transform behaviors.
+
+Play again and you see that things have very much improved.
+
+Now place a look at behavior to be a little above the ball, so namely 1.0 meters in the z
+
+This is the full component part:
+
+![update_camera_rig](images/update_camera_rig.png)
+
+So if you now press play, you should see the camera rotating around the ball. You still get a bit sick but at least you know where the ball is going :)
+
+![better_camera_rig](images/better_camera_rig.gif)
+
+Jeej! That's end of section 7. 

@@ -234,12 +234,26 @@
                                 "Entity Target": "Entity_[359586631594]"
                             }
                         ],
+                        "Look-at Behaviors": [
+                            {
+                                "$type": "OffsetPosition",
+                                "Positional Offset": [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            }
+                        ],
                         "Camera Transform Behaviors": [
                             {
-                                "$type": "FollowTargetFromAngle",
-                                "Angle": -90.0,
-                                "Rotation Type": 2,
-                                "Distance From Target": 5.0
+                                "$type": "FollowTargetFromDistance",
+                                "Follow Distance": 5.0,
+                                "Minimum Follow Distance": 1.0,
+                                "Maximum Follow Distance": 10.0,
+                                "Input Source Entity": ""
+                            },
+                            {
+                                "$type": "FaceTarget"
                             }
                         ]
                     }
@@ -271,14 +285,14 @@
                     "Parent Entity": "Entity_[1176639161715]",
                     "Transform Data": {
                         "Translate": [
-                            -2.3000001907348633,
-                            -3.9368600845336914,
-                            1.0
+                            -5.0,
+                            0.0,
+                            2.0
                         ],
                         "Rotate": [
-                            -2.050307512283325,
-                            1.9552897214889526,
-                            -43.623355865478516
+                            0.0,
+                            0.0,
+                            -90.0
                         ]
                     }
                 },
