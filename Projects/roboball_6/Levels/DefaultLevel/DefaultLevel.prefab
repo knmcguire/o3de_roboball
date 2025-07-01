@@ -587,7 +587,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{04302CC3-BDAE-56AF-B8C6-F24D903897C7}"
-                                            }
+                                            },
+                                            "assetHint": "assets/materials/roboball_texture.azmaterial"
                                         }
                                     }
                                 }

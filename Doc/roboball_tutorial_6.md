@@ -65,7 +65,7 @@ We would like to know where the roboball is looking at and appy the linear impul
 
 Add the following onTick:
 
-´´´
+´´´lua
 local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
 Debug.Log(Rot.z)
 ´´´
@@ -81,5 +81,19 @@ https://www.docs.o3de.org/docs/user-guide/components/reference/transform/
 
 ## Apply rotation to impulse
 
+So I'd like the impulse to be applied to the direction that the ball is currently facing. So let's use this rotation and transform the vector of the impulse to be rotated in the right direction. 
+
+Add this part after the rotation retrieval in the OnTick code:
+```lua
+	local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
+ 	local ImpulseSize = self.Properties.ImpulseSize
+ 	local x_new = ImpulseSize * math.cos(Rot.z)
+ 	local y_new = ImpulseSize * math.sin(Rot.z)
+	RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new, 0.0));
+```
+
+If you play the game again you see that the linear impulse at least is rotated towards the direction that you want it to go. It's not ideal but it is something
+
+![](images/control_with_impulse.gif)
 
 
