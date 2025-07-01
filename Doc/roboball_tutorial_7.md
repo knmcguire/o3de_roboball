@@ -103,4 +103,6 @@ return Control
 
 And the ball control should look like this
 
-GIF
+![bounce_with_rotation](images/bounce_with_rotation.gif)
+
+## Improve the Camera rig. 
