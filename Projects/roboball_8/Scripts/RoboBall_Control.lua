@@ -3,7 +3,8 @@ local Control = {
 		ImpulseSize = 1.0,
 		InputEventName = "",
 		RotationDirection = 0.0,
-		AngularVelocity = 0.2
+		AngularVelocity = 0.2,
+		GroundId = EntityId(),
 	}
 }
 
@@ -25,7 +26,10 @@ function Control:OnPhysicsEnabled(entityId)
 end
 
 function Control:OnCollisionBegin(collision)
-	Debug.Log('Ouch!')
+	-- Debug.Log('Ouch!')
+	if tostring(collision:GetBody2EntityId()) == self.Properties.GroundId then
+		Debug.Log(' Floor')
+	end
 end
 
 function Control:OnTick(deltaTime, currentTime)

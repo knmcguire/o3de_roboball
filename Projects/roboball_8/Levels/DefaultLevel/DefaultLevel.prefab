@@ -667,6 +667,11 @@
                                     "value": 1.0
                                 },
                                 {
+                                    "$type": "AzFramework::ScriptPropertyString",
+                                    "id": 1722610586,
+                                    "name": "GroundId"
+                                },
+                                {
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 920817669,
                                     "name": "ImpulseSize",
