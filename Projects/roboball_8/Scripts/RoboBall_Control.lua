@@ -11,13 +11,28 @@ function Control:OnActivate()
 	self.TickNotificationBus = TickBus.Connect(self);
 	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
 	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
+	self.RigidBodyNotificationBusHandler = RigidBodyNotificationBus.Connect(self, self.entityId)
+
+end
+
+function Control:OnPhysicsEnabled(entityId)
+	local event = SimulatedBody.GetOnCollisionBeginEvent(self.entityId);
+	self.CollisionEvent = event:Connect(
+		function(_, collision)
+			self:OnCollisionBegin(collision)
+		end
+	);
+end
+
+function Control:OnCollisionBegin(collision)
+	Debug.Log('Ouch!')
 end
 
 function Control:OnTick(deltaTime, currentTime)
 	local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
- 	local ImpulseSize = self.Properties.ImpulseSize
- 	local x_new = ImpulseSize * math.cos(Rot.z)
- 	local y_new = ImpulseSize * math.sin(Rot.z)
+	local ImpulseSize = self.Properties.ImpulseSize
+	local x_new = ImpulseSize * math.cos(Rot.z)
+	local y_new = ImpulseSize * math.sin(Rot.z)
 	RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new, 0.0));
 	
 	local RotVel = self.Properties.RotationDirection * self.Properties.AngularVelocity;
@@ -27,15 +42,14 @@ function Control:OnTick(deltaTime, currentTime)
 end
 
 function Control:OnHeld(value)
-	--local ImpulseDirection = value * self.Properties.ImpulseSize
 	self.Properties.RotationDirection = value
-	-- RigidBodyRequestBus.Event.ApplyAngularImpulse(self.entityId, Vector3(0.0, 0.0, ImpulseDirection));
  end
 
 
 function Control:OnDeactivate()
 	self.TickNotificationBus:Disconnect();
 	self.InputNotificationBus:Disconnect();
+	self.RigidBodyNotificationBusHandler:Disconnect()
 end
 
 return Control
