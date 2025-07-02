@@ -13,7 +13,7 @@ function Control:OnActivate()
 	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
 	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
 	self.RigidBodyNotificationBusHandler = RigidBodyNotificationBus.Connect(self, self.entityId)
-
+	self.first_run = false
 end
 
 function Control:OnPhysicsEnabled(entityId)
@@ -27,7 +27,11 @@ end
 
 function Control:OnCollisionBegin(collision)
 	-- Debug.Log('Ouch!')
-	if tostring(collision:GetBody2EntityId()) == self.Properties.GroundId then
+	if self.first_run==false then
+		self.Properties.GroundId = collision:GetBody2EntityId()
+		self.first_run = true
+	end
+	if collision:GetBody2EntityId() == self.Properties.GroundId then
 		Debug.Log(' Floor')
 	end
 end

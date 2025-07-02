@@ -136,4 +136,26 @@ Play the game again!
 Nothing is happening and this is a bug! Let's have a quick fix assuming that the first thing it will hit is the floor.
 
 
+Add the following to OnActivate()
+```lua
+	self.first_run = false
+```
+
+and the following above the entity comparison in OnCollision
+```lua
+	if self.first_run==false then
+		self.Properties.GroundId = collision:GetBody2EntityId()
+		self.first_run = true
+	end
+```
+
+Now play the game again, you should see the following:
+
+```lua
+(Script) -  Floor
+(Script) -  Floor
+(Script) -  Floor
+(Script) -  Floor
+```
+
 
