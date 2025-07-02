@@ -6,6 +6,8 @@ However, let's improve it a bit more here as using rotationalimpulse is not the 
 
 ## rotation instead of impulse
 
+We could try to add a constant rotation to the entity, but the physics component would be need to be disabled (but there is a script for it if interested)
+
 Open up the roboball_control.lua in the lua editor again.
 
 Add another propertie called RotationDirection and AngularVelocity that's a float
@@ -140,6 +142,8 @@ This is the full component part:
 ![update_camera_rig](images/update_camera_rig.png)
 
 So if you now press play, you should see the camera rotating around the ball. You still get a bit sick but at least you know where the ball is going :)
+
+It might be nice to decouple to z axis from the ball, but that would require some more scripting so let's leave that for another time. 
 
 ![better_camera_rig](images/better_camera_rig.gif)
 
