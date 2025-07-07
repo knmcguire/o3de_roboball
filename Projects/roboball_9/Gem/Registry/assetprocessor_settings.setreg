@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder RoboBall/Assets": {
+                    "watch": "@GEMROOT:RoboBall@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder RoboBall/Registry": {
+                    "watch": "@GEMROOT:RoboBall@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

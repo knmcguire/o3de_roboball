@@ -1,0 +1,46 @@
+{
+    "project_name": "RoboBall",
+    "version": "9.0.0",
+    "project_id": "{260E6598-F31C-4530-A66F-A80FE023FDA7}",
+    "origin": "The primary repo for RoboBall goes here: i.e. http://www.mydomain.com",
+    "license": "What license RoboBall uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "RoboBall",
+    "summary": "A short description of RoboBall.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "RoboBall"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "RoboBall",
+    "gem_names": [
+        "RoboBall",
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "MiniAudio",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "RemoteTools"
+    ]
+}
