@@ -2,25 +2,25 @@
 #include <AzCore/Memory/SystemAllocator.h>
 #include <AzCore/Module/Module.h>
 
-#include "RoboBallSystemComponent.h"
+#include "roboballSystemComponent.h"
 
-#include <RoboBall/RoboBallTypeIds.h>
+#include <roboball/roboballTypeIds.h>
 
-namespace RoboBall
+namespace roboball
 {
-    class RoboBallModule
+    class roboballModule
         : public AZ::Module
     {
     public:
-        AZ_RTTI(RoboBallModule, RoboBallModuleTypeId, AZ::Module);
-        AZ_CLASS_ALLOCATOR(RoboBallModule, AZ::SystemAllocator);
+        AZ_RTTI(roboballModule, roboballModuleTypeId, AZ::Module);
+        AZ_CLASS_ALLOCATOR(roboballModule, AZ::SystemAllocator);
 
-        RoboBallModule()
+        roboballModule()
             : AZ::Module()
         {
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
             m_descriptors.insert(m_descriptors.end(), {
-                RoboBallSystemComponent::CreateDescriptor(),
+                roboballSystemComponent::CreateDescriptor(),
             });
         }
 
@@ -30,14 +30,14 @@ namespace RoboBall
         AZ::ComponentTypeList GetRequiredSystemComponents() const override
         {
             return AZ::ComponentTypeList{
-                azrtti_typeid<RoboBallSystemComponent>(),
+                azrtti_typeid<roboballSystemComponent>(),
             };
         }
     };
-}// namespace RoboBall
+}// namespace roboball
 
 #if defined(O3DE_GEM_NAME)
-AZ_DECLARE_MODULE_CLASS(AZ_JOIN(Gem_, O3DE_GEM_NAME), RoboBall::RoboBallModule)
+AZ_DECLARE_MODULE_CLASS(AZ_JOIN(Gem_, O3DE_GEM_NAME), roboball::roboballModule)
 #else
-AZ_DECLARE_MODULE_CLASS(Gem_RoboBall, RoboBall::RoboBallModule)
+AZ_DECLARE_MODULE_CLASS(Gem_roboball, roboball::roboballModule)
 #endif

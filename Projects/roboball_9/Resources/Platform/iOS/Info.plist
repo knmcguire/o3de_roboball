@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>RoboBall</string>
+	<string>roboball</string>
 	<key>CFBundleExecutable</key>
-	<string>RoboBall.GameLauncher</string>
+	<string>roboball.GameLauncher</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.amazon.lumberyard.RoboBall</string>
+	<string>com.amazon.lumberyard.roboball</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>RoboBall</string>
+	<string>roboball</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

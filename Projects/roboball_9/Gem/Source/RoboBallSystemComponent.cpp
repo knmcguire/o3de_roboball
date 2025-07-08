@@ -1,70 +1,70 @@
 
 #include <AzCore/Serialization/SerializeContext.h>
 
-#include "RoboBallSystemComponent.h"
+#include "roboballSystemComponent.h"
 
-#include <RoboBall/RoboBallTypeIds.h>
+#include <roboball/roboballTypeIds.h>
 
-namespace RoboBall
+namespace roboball
 {
-    AZ_COMPONENT_IMPL(RoboBallSystemComponent, "RoboBallSystemComponent",
-        RoboBallSystemComponentTypeId);
+    AZ_COMPONENT_IMPL(roboballSystemComponent, "roboballSystemComponent",
+        roboballSystemComponentTypeId);
 
-    void RoboBallSystemComponent::Reflect(AZ::ReflectContext* context)
+    void roboballSystemComponent::Reflect(AZ::ReflectContext* context)
     {
         if (auto serializeContext = azrtti_cast<AZ::SerializeContext*>(context))
         {
-            serializeContext->Class<RoboBallSystemComponent, AZ::Component>()
+            serializeContext->Class<roboballSystemComponent, AZ::Component>()
                 ->Version(0)
                 ;
         }
     }
 
-    void RoboBallSystemComponent::GetProvidedServices(AZ::ComponentDescriptor::DependencyArrayType& provided)
+    void roboballSystemComponent::GetProvidedServices(AZ::ComponentDescriptor::DependencyArrayType& provided)
     {
-        provided.push_back(AZ_CRC_CE("RoboBallService"));
+        provided.push_back(AZ_CRC_CE("roboballService"));
     }
 
-    void RoboBallSystemComponent::GetIncompatibleServices(AZ::ComponentDescriptor::DependencyArrayType& incompatible)
+    void roboballSystemComponent::GetIncompatibleServices(AZ::ComponentDescriptor::DependencyArrayType& incompatible)
     {
-        incompatible.push_back(AZ_CRC_CE("RoboBallService"));
+        incompatible.push_back(AZ_CRC_CE("roboballService"));
     }
 
-    void RoboBallSystemComponent::GetRequiredServices([[maybe_unused]] AZ::ComponentDescriptor::DependencyArrayType& required)
-    {
-    }
-
-    void RoboBallSystemComponent::GetDependentServices([[maybe_unused]] AZ::ComponentDescriptor::DependencyArrayType& dependent)
+    void roboballSystemComponent::GetRequiredServices([[maybe_unused]] AZ::ComponentDescriptor::DependencyArrayType& required)
     {
     }
 
-    RoboBallSystemComponent::RoboBallSystemComponent()
+    void roboballSystemComponent::GetDependentServices([[maybe_unused]] AZ::ComponentDescriptor::DependencyArrayType& dependent)
     {
-        if (RoboBallInterface::Get() == nullptr)
+    }
+
+    roboballSystemComponent::roboballSystemComponent()
+    {
+        if (roboballInterface::Get() == nullptr)
         {
-            RoboBallInterface::Register(this);
+            roboballInterface::Register(this);
         }
     }
 
-    RoboBallSystemComponent::~RoboBallSystemComponent()
+    roboballSystemComponent::~roboballSystemComponent()
     {
-        if (RoboBallInterface::Get() == this)
+        if (roboballInterface::Get() == this)
         {
-            RoboBallInterface::Unregister(this);
+            roboballInterface::Unregister(this);
         }
     }
 
-    void RoboBallSystemComponent::Init()
+    void roboballSystemComponent::Init()
     {
     }
 
-    void RoboBallSystemComponent::Activate()
+    void roboballSystemComponent::Activate()
     {
-        RoboBallRequestBus::Handler::BusConnect();
+        roboballRequestBus::Handler::BusConnect();
     }
 
-    void RoboBallSystemComponent::Deactivate()
+    void roboballSystemComponent::Deactivate()
     {
-        RoboBallRequestBus::Handler::BusDisconnect();
+        roboballRequestBus::Handler::BusDisconnect();
     }
 }

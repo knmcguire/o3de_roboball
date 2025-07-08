@@ -3,16 +3,16 @@
 
 #include <AzCore/Component/Component.h>
 
-#include <RoboBall/RoboBallBus.h>
+#include <roboball/roboballBus.h>
 
-namespace RoboBall
+namespace roboball
 {
-    class RoboBallSystemComponent
+    class roboballSystemComponent
         : public AZ::Component
-        , protected RoboBallRequestBus::Handler
+        , protected roboballRequestBus::Handler
     {
     public:
-        AZ_COMPONENT_DECL(RoboBallSystemComponent);
+        AZ_COMPONENT_DECL(roboballSystemComponent);
 
         static void Reflect(AZ::ReflectContext* context);
 
@@ -21,12 +21,12 @@ namespace RoboBall
         static void GetRequiredServices(AZ::ComponentDescriptor::DependencyArrayType& required);
         static void GetDependentServices(AZ::ComponentDescriptor::DependencyArrayType& dependent);
 
-        RoboBallSystemComponent();
-        ~RoboBallSystemComponent();
+        roboballSystemComponent();
+        ~roboballSystemComponent();
 
     protected:
         ////////////////////////////////////////////////////////////////////////
-        // RoboBallRequestBus interface implementation
+        // roboballRequestBus interface implementation
 
         ////////////////////////////////////////////////////////////////////////
 

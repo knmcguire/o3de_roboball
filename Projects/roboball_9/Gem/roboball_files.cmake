@@ -1,7 +1,7 @@
 
 set(FILES
-    Include/RoboBall/RoboBallBus.h
-    Include/RoboBall/RoboBallTypeIds.h
-    Source/RoboBallSystemComponent.cpp
-    Source/RoboBallSystemComponent.h
+    Include/roboball/roboballBus.h
+    Include/roboball/roboballTypeIds.h
+    Source/roboballSystemComponent.cpp
+    Source/roboballSystemComponent.h
 )

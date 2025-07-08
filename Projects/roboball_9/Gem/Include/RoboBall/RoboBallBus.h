@@ -1,22 +1,22 @@
 
 #pragma once
 
-#include <RoboBall/RoboBallTypeIds.h>
+#include <roboball/roboballTypeIds.h>
 
 #include <AzCore/EBus/EBus.h>
 #include <AzCore/Interface/Interface.h>
 
-namespace RoboBall
+namespace roboball
 {
-    class RoboBallRequests
+    class roboballRequests
     {
     public:
-        AZ_RTTI(RoboBallRequests, RoboBallRequestsTypeId);
-        virtual ~RoboBallRequests() = default;
+        AZ_RTTI(roboballRequests, roboballRequestsTypeId);
+        virtual ~roboballRequests() = default;
         // Put your public methods here
     };
 
-    class RoboBallBusTraits
+    class roboballBusTraits
         : public AZ::EBusTraits
     {
     public:
@@ -27,7 +27,7 @@ namespace RoboBall
         //////////////////////////////////////////////////////////////////////////
     };
 
-    using RoboBallRequestBus = AZ::EBus<RoboBallRequests, RoboBallBusTraits>;
-    using RoboBallInterface = AZ::Interface<RoboBallRequests>;
+    using roboballRequestBus = AZ::EBus<roboballRequests, roboballBusTraits>;
+    using roboballInterface = AZ::Interface<roboballRequests>;
 
-} // namespace RoboBall
+} // namespace roboball

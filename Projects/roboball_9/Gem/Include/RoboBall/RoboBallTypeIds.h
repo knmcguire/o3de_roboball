@@ -1,14 +1,14 @@
 
 #pragma once
 
-namespace RoboBall
+namespace roboball
 {
     // System Component TypeIds
-    inline constexpr const char* RoboBallSystemComponentTypeId = "{4863D093-C2D8-468A-BCFD-205596C6C69B}";
+    inline constexpr const char* roboballSystemComponentTypeId = "{031467EF-3807-4F42-8C65-C6E4A4A8B13F}";
 
     // Module derived classes TypeIds
-    inline constexpr const char* RoboBallModuleTypeId = "{C96869B2-6A78-40BF-B45D-1F6BB3811294}";
+    inline constexpr const char* roboballModuleTypeId = "{7EC54C83-F968-40E5-AE97-D4A3FD0A84B5}";
 
     // Interface TypeIds
-    inline constexpr const char* RoboBallRequestsTypeId = "{903C3303-8B01-4268-8215-ADCE825B021A}";
-} // namespace RoboBall
+    inline constexpr const char* roboballRequestsTypeId = "{3DB6157A-EA84-4ECD-8BAF-F71763119946}";
+} // namespace roboball

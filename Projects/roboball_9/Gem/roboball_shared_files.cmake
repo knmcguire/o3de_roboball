@@ -1,4 +1,4 @@
 
 set(FILES
-    Source/RoboBallModule.cpp
+    Source/roboballModule.cpp
 )

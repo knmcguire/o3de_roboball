@@ -34,7 +34,7 @@ REM
 REM Note: The location of the engine (O3DE_PATH) is hardcoded to the location of the engine that was used to generate 
 REM       this project. The engine path must reflect the path to the engine on the local machine.
 
-set O3DE_PATH=C:/o3de
+set O3DE_PATH=C:/O3DE/25.05
 set O3DE_PROJECT_PATH=%~dp0
 
 IF "%1" == "-h" (
