@@ -26,3 +26,17 @@ Let's add the following to the script:
 ```
 
 Now there should be an even bounce
+
+Now copy the forward impulse from tick to the collision function
+
+```
+		local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
+		local ImpulseSize = self.Properties.ImpulseSize
+		local x_new = ImpulseSize * math.cos(Rot.z)
+		local y_new = ImpulseSize * math.sin(Rot.z)
+		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new,BounceImpulse));
+```
+
+If you play the game now, you see that the rig needs to be adjusted. 
+
+Turn the 'take targets rotation' off

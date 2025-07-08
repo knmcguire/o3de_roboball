@@ -33,11 +33,15 @@ function Control:OnCollisionBegin(collision)
 	end
 	if collision:GetBody2EntityId() == self.Properties.GroundId then
 		local velocity = RigidBodyRequestBus.Event.GetLinearVelocity (self.entityId);
-		Debug.Log(tostring(velocity));
-
 		local mass = RigidBodyRequestBus.Event.GetMass(self.entityId);
 		local BounceImpulse = mass * (6 - velocity.z)
-		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(0,0,BounceImpulse));
+		
+		
+		local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
+		local ImpulseSize = self.Properties.ImpulseSize
+		local x_new = ImpulseSize * math.cos(Rot.z)
+		local y_new = ImpulseSize * math.sin(Rot.z)
+		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new,BounceImpulse));
 
 		Debug.Log(' Floor');
 		Debug.Log(tostring(BounceImpulse));
@@ -60,6 +64,8 @@ end
 
 function Control:OnHeld(value)
 	self.Properties.RotationDirection = value
+		Debug.Log(' button pressed');
+
  end
 
 
