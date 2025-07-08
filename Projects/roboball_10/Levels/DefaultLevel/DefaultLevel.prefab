@@ -30,7 +30,8 @@
                     "Entity_[1727296890066]",
                     "Entity_[1735886824658]",
                     "Entity_[1744476759250]",
-                    "Entity_[1753066693842]"
+                    "Entity_[1753066693842]",
+                    "Entity_[4901277721810]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -5718,6 +5719,97 @@
                             0.0,
                             0.0,
                             2.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[4901277721810]": {
+            "Id": "Entity_[4901277721810]",
+            "Name": "goal",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1313264086603609183,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{51B1B230-910D-500D-8BDB-D72F5DA9507E}",
+                                    "subId": 274738010
+                                },
+                                "assetHint": "materialeditor/viewportmodels/beveledcone.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16597095637946453783,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 3,
+                        "Cylinder": {
+                            "Configuration": {
+                                "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABeg2w/Fu/DPgAAAD/zBDU/8wQ1PwAAAD8U78M+X4NsPwAAAD8uvTuzAACAPwAAAD8X78O+XoNsPwAAAD/0BDW/8gQ1PwAAAD9fg2y/E+/DPgAAAD8AAIC/Lr27swAAAD9eg2y/GO/DvgAAAD/yBDW/9AQ1vwAAAD8R78O+X4NsvwAAAD/jzQw0AACAvwAAAD8a78M+XoNsvwAAAD/1BDU/8QQ1vwAAAD9gg2w/EO/DvgAAAD8AAIA/AAAAAAAAAD8U78M+X4NsPwAAAL8uvTuzAACAPwAAAL/zBDU/8wQ1PwAAAL8X78O+XoNsPwAAAL/0BDW/8gQ1PwAAAL8a78M+XoNsvwAAAL/1BDU/8QQ1vwAAAL/jzQw0AACAvwAAAL9gg2w/EO/DvgAAAL8AAIA/AAAAAAAAAL9fg2y/E+/DPgAAAL8AAIC/Lr27swAAAL8R78O+X4NsvwAAAL/yBDW/9AQ1vwAAAL9eg2w/Fu/DPgAAAL9eg2y/GO/DvgAAAL8AAAAAAAAAAAAAgD8AAAC/AAAQEL3FRz6/FHs/AAAAAL8Ue78QAAQK2zkOPzLbVD8AAAAAwBR7vxQABAnbOQ6/MNtUPwAAAAC+FHu/GAAEDMbFR76/FHs/AAAAAL8Ue78cAAQM3jkOPy/bVL8AAAAAvxR7vyAABAXGxUc+vxR7vwAAAAC/FHu/JAAEA78Uez+4xUe+AAAAAL8Ue78oAAQHMttUP9k5Dr8AAAAAvhR7vywABAW/FHu/vMVHPgAAAAC/FHu/MAAEDjDbVL/ZOQ4/AAAAALwUe780AAQNvcVHvr8Ue78AAAAAvxR7vzgABALZOQ6/M9tUvwAAAAC+FHu/PAAEATLbVD/aOQ4/AAAAAL8Ue79AAAQIvxR7P8bFRz4AAAAAvxR7v0QABAcv21S/2zkOvwAAAAC9FHu/SAAEAb0Ue7/GxUe+AAAAAL4Ue79MAAQAAAAAAAAAAAAAAIC/AAAAv1AAEAAAAQIDBAUGBwgJCgsMDQ4PEBEDAhACARITFAUEEwQDERUWDQwVDAsXGBkPDhgODRYaGwcGGgYFFBwXCwocCgkdHhIBAB4ADxkfHQkIHwgHGx8bGhQTERASHhkYFhUXHB0ADQACAAEABAADAAoACQAQAA8ADAALAAYABQAIAAcADgERAQQBAgINAhEDEQMKAwQEEQURBQgFBgYLBhEHEQcOBwgIEQkRCRAJCgoRCxELDAwPDBENEQ0ODhEPEQ8QEBEADQ4AAg0AAQIAAQQAAwQAAwoACQoACRAADxAADA8ACwwABgsABQYABQgABwgABw4BAhEBBBECDREDBBEDChEFBhEFCBEGCxEHCBEHDhEJChEJEBELDBEMDxENDhEPEBEAAAAAAACAvwAAgL8AAAC/AACAPwAAgD8AAAA/Fe9DQAgjgD+kfSMy+3J4saR9IzIII4A/vbu/o/tyeLG9u7+jX/a+P7TqrjJFV7yydT2nrwAAgL8AAAA/2kxxPzvNkz47zZM+",
+                                "Type": 1
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16694428660098262364
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 121126936035697032
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11234253380511456321
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17144978601811344023
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16833638031949685186
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8423257406249437711
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 790103002008796824
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16007703114529833121
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3784761036904485416
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16192730143102328267,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -5.007668972015381,
+                            -5.0,
+                            0.5607821345329285
                         ]
                     }
                 }

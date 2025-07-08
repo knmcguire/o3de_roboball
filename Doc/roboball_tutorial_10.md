@@ -41,3 +41,35 @@ Now let's add some obstacles to the scene, let's use the white box collider for 
 
 Play the game and see how it handles the other obtacles. 
 
+
+## Add a goal
+
+Seems we were a bit too soon with removing ontick. Let's add that back
+
+Add back in onactivate
+
+```lua
+	self.TickNotificationBus = TickBus.Connect(self);
+
+```
+
+and on deactivate:
+```lua
+
+	self.TickNotificationBus:Disconnect();
+```
+
+and this following function:
+
+```lua
+function Autonomous:OnTick(deltaTime, currentTime)
+	local GoalVector = Vector3(-5, -5, 0)
+	local BallPos = TransformBus.Event.GetWorldTranslation(self.entityId); 
+	local ToGoalVector = GoalVector - BallPos;
+	local goalHeading = math.atan(ToGoalVector.y, ToGoalVector.x);
+	self.ControlHeading = goalHeading;
+end
+```
+Then add a cone with a primitive static colider to that same location.
+
+Now the ball will contstantly try to go to that place.

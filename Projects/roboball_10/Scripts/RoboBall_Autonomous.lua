@@ -15,6 +15,7 @@ function WrapAngle(angle)
 end
 
 function Autonomous:OnActivate()
+	self.TickNotificationBus = TickBus.Connect(self);
 	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
 	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
 	self.RigidBodyNotificationBusHandler = RigidBodyNotificationBus.Connect(self, self.entityId)
@@ -29,6 +30,17 @@ function Autonomous:OnPhysicsEnabled(entityId)
 			self:OnCollisionBegin(collision)
 		end
 	);
+end
+
+function Autonomous:OnTick(deltaTime, currentTime)
+
+	local GoalVector = Vector3(-5, -5, 0)
+	local BallPos = TransformBus.Event.GetWorldTranslation(self.entityId); 
+	local ToGoalVector = GoalVector - BallPos;
+
+	local goalHeading = math.atan(ToGoalVector.y, ToGoalVector.x);
+	self.ControlHeading = goalHeading;
+
 end
 
 function Autonomous:OnCollisionBegin(collision)
@@ -56,6 +68,8 @@ end
 function Autonomous:OnDeactivate()
 	self.InputNotificationBus:Disconnect();
 	self.RigidBodyNotificationBusHandler:Disconnect()
+	self.TickNotificationBus:Disconnect();
+
 end
 
 return Autonomous
