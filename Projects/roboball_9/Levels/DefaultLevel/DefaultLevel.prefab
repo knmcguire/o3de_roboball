@@ -231,7 +231,7 @@
                         "Target Acquirers": [
                             {
                                 "$type": "AcquireByEntityId",
-                                "Entity Target": "Entity_[359586631594]"
+                                "Entity Target": "Entity_[1500015521335]"
                             }
                         ],
                         "Look-at Behaviors": [
@@ -247,7 +247,7 @@
                         "Camera Transform Behaviors": [
                             {
                                 "$type": "FollowTargetFromDistance",
-                                "Follow Distance": 5.0,
+                                "Follow Distance": 5.039999961853027,
                                 "Minimum Follow Distance": 1.0,
                                 "Maximum Follow Distance": 10.0,
                                 "Input Source Entity": ""
@@ -525,6 +525,56 @@
                 }
             }
         },
+        "Entity_[1500015521335]": {
+            "Id": "Entity_[1500015521335]",
+            "Name": "CameraRigTarget",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14903859574287052270
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14521843724270427574
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9492045478241783515
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 187140045341348052
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16640885727646719480
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1572576413179760235
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4192534793239855005
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17714091551477984594
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9065201992982386639,
+                    "Parent Entity": "Entity_[359586631594]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -90.0
+                        ]
+                    }
+                }
+            }
+        },
         "Entity_[359586631594]": {
             "Id": "Entity_[359586631594]",
             "Name": "RoboBall",
@@ -577,7 +627,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4817180217618020796
+                    "Id": 4817180217618020796,
+                    "Child Entity Order": [
+                        "Entity_[1500015521335]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
