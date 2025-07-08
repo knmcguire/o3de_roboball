@@ -604,10 +604,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{2DE2D078-8D05-59A7-AD7B-D6FB0D15BB69}",
+                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
                                             "subId": 1
                                         },
-                                        "assetHint": "assets/materials/bouncy.physicsmaterial"
+                                        "assetHint": "physx/rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -676,17 +676,17 @@
                     "Id": 16890049986341831200,
                     "Configuration": {
                         "entityId": "",
-                        "Mass": 523.5988159179688,
+                        "Mass": 628.3185424804688,
                         "Inertia tensor": [
-                            52.35987854003906,
+                            62.831851959228516,
                             0.0,
                             0.0,
                             0.0,
-                            52.35987854003906,
+                            62.831851959228516,
                             0.0,
                             0.0,
                             0.0,
-                            52.35987854003906
+                            62.831851959228516
                         ]
                     }
                 },
@@ -717,24 +717,27 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 3313362053,
                                     "name": "AngularVelocity",
-                                    "value": 1.0
+                                    "value": 0.2
                                 },
                                 {
-                                    "$type": "AzFramework::ScriptPropertyString",
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
                                     "id": 1722610586,
-                                    "name": "GroundId"
+                                    "name": "GroundId",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[1159459292531]"
+                                    }
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 920817669,
                                     "name": "ImpulseSize",
-                                    "value": 3.0
+                                    "value": 1100.0
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyString",
                                     "id": 3073782630,
-                                    "name": "InputEventName",
-                                    "value": "control"
+                                    "name": "InputEventName"
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
@@ -745,18 +748,18 @@
                         },
                         "Script": {
                             "assetId": {
-                                "guid": "{58AFFE4B-44FA-580E-BE15-8F03CF56A576}",
+                                "guid": "{1905B1E4-139D-5323-BCDF-757A6AFE8AB3}",
                                 "subId": 1
                             },
-                            "assetHint": "scripts/roboball_control.luac"
+                            "assetHint": "scripts/roboball_autonomous.luac"
                         }
                     },
                     "ScriptAsset": {
                         "assetId": {
-                            "guid": "{58AFFE4B-44FA-580E-BE15-8F03CF56A576}",
+                            "guid": "{1905B1E4-139D-5323-BCDF-757A6AFE8AB3}",
                             "subId": 1
                         },
-                        "assetHint": "scripts/roboball_control.luac"
+                        "assetHint": "scripts/roboball_autonomous.luac"
                     }
                 },
                 "TransformComponent": {
