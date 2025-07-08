@@ -14,6 +14,7 @@ function Control:OnActivate()
 	self.InputNotificationBus = InputEventNotificationBus.Connect(self, inputBusId)
 	self.RigidBodyNotificationBusHandler = RigidBodyNotificationBus.Connect(self, self.entityId)
 	self.first_run = false
+	self.ControlHeading = 0.0
 end
 
 function Control:OnPhysicsEnabled(entityId)
@@ -37,10 +38,9 @@ function Control:OnCollisionBegin(collision)
 		local BounceImpulse = mass * (6 - velocity.z)
 		
 		
-		local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
 		local ImpulseSize = self.Properties.ImpulseSize
-		local x_new = ImpulseSize * math.cos(Rot.z)
-		local y_new = ImpulseSize * math.sin(Rot.z)
+		local x_new = ImpulseSize * math.cos(self.ControlHeading)
+		local y_new = ImpulseSize * math.sin(self.ControlHeading)
 		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new,BounceImpulse));
 
 		Debug.Log(' Floor');
@@ -62,9 +62,12 @@ function Control:OnTick(deltaTime, currentTime)
 
 end
 
-function Control:OnHeld(value)
+function Control:OnPressed(value)
 	self.Properties.RotationDirection = value
 		Debug.Log(' button pressed');
+		self.ControlHeading = self.ControlHeading + value*self.Properties.AngularVelocity
+		Debug.Log(tostring(self.ControlHeading))
+		
 
  end
 
