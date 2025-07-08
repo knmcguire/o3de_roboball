@@ -81,6 +81,19 @@ end
 and apply this to the control heading
 
 ```lua
-
 		self.ControlHeading = WrapAngle(self.ControlHeading + value*self.Properties.AngularVelocity)
+```
+
+## Control the forward speed and clean up the code
+
+It will go faster everytime so let's see if we can control that speed.
+
+Add the following to oncollision to change the impulse size accordingly:
+
+```lua
+		local ForwardVelocity = velocity.x * math.cos(self.ControlHeading) + velocity.y * math.sin(self.ControlHeading);
+		Debug.Log(tostring(ForwardVelocity))
+		local ForwardImpulse = mass*(6-ForwardVelocity)
+		local ImpulseSize = ForwardImpulse
+
 ```
