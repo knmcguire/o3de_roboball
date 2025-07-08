@@ -721,6 +721,18 @@
                                     "value": 0.2
                                 },
                                 {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 683504416,
+                                    "name": "BounceRef",
+                                    "value": 6.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1690550985,
+                                    "name": "ForwardRef",
+                                    "value": 6.0
+                                },
+                                {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
                                     "id": 1722610586,
                                     "name": "GroundId",
@@ -730,12 +742,6 @@
                                     }
                                 },
                                 {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 920817669,
-                                    "name": "ImpulseSize",
-                                    "value": 1000.0
-                                },
-                                {
                                     "$type": "AzFramework::ScriptPropertyString",
                                     "id": 3073782630,
                                     "name": "InputEventName",
@@ -743,8 +749,9 @@
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 1221150607,
-                                    "name": "RotationDirection"
+                                    "id": 1234334135,
+                                    "name": "RotationDiff",
+                                    "value": 0.2
                                 }
                             ]
                         },
