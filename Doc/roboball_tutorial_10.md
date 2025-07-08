@@ -34,5 +34,10 @@ Add this line to the obstacle if statement (where the debug log of thee obstacle
 		self.ControlHeading = WrapAngle(self.ControlHeading + self.Properties.AvoidAngle )
 ```
 
-Now run the game and you'll see the ball bouncing away from the walls
+Now run the game and you'll see the ball bouncing away from the walls.
+
+
+Now let's add some obstacles to the scene, let's use the white box collider for it.
+
+Play the game and see how it handles the other obtacles. 
 

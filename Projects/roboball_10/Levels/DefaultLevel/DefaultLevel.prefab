@@ -24,7 +24,13 @@
                     "Entity_[997998357285]",
                     "Entity_[1350185675557]",
                     "Entity_[1363070577445]",
-                    "Entity_[1371660512037]"
+                    "Entity_[1371660512037]",
+                    "Entity_[1710117020882]",
+                    "Entity_[1718706955474]",
+                    "Entity_[1727296890066]",
+                    "Entity_[1735886824658]",
+                    "Entity_[1744476759250]",
+                    "Entity_[1753066693842]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -2253,6 +2259,3255 @@
                 }
             }
         },
+        "Entity_[1710117020882]": {
+            "Id": "Entity_[1710117020882]",
+            "Name": "obstacle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13057045169228645399
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13411036767855702351
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10972783170601919672
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12287320595271726661
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 485970048323898381
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5165334394677951625
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14363998499098911728
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 352398226519968801
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 5870626706199786896,
+                    "WhiteBoxData": "T01UQggAAAAMAAAAEgAAAAAWIKiGv9DtkL8PvLM/JFTxPiymcL9ynRRAcLIXPzaNfz/isVBAyuA7wMnDbEC0W0g/2/fPvwoPJL84VoS/AAAAPwAAAL8AAAC/BOQoQKYUfD8AAAC/l3NiwEwmaUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDsC96jwWU7g/IKjGPx54Z7+Ak729bBr/vuQ66b8WU7g/IKjGP9Dt0D+Ak729bBr/vsrgW0DJw0zAgJO9veKxMMAgqMY/0O3QP2i3kL7Jw0zABOQIwEwp+L7MOYFAAACAPwAAAAAAAIA/BOQIwAAAgD/MOYFATCZJwAAAAAAAAIA/7vsHQIUHkj8AAAAAAACAP8w5gUBMJknAOFbEP4UHkj/Aveo85DrpvwAAgD8AAIA/7vsHQDhWxD/Aveo85Drpv+77B0A4VsQ/Hnhnv9Dt0D+Ak7294rEwwATkCMAAAIA/AAAAAAAAgD/isTDAbBr/vsrgW0Bot5C+AACAP0wmScAE5AjAAACAP8rgW0Bot5C+AACAP0wmScAeeGe/0O3QP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWwx3kvlEqvL5z/FA/LAAlv1esHr5mqz8/AAAAgAAAAAAAAIC/EIllPqy8Xz54InO/jcbTPeGge79l3Ru+kmKJPm8gbr8BRIC+mE0LP9WvSL+tCpk+dn9/P7kzgL20pMM5aGbFPkFbZT/f6mG+VqTwPjWBWD9nYIE+yU5mvwze1b7NMwI+gv9cv1vFkL43EdY+wsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA",
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.44553956389427185,
+                                    -0.3675103485584259,
+                                    0.8163520693778992
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.6445338726043701,
+                                    -0.15495429933071136,
+                                    0.7487090826034546
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        -0.4846900701522827
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    -0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Normal": [
+                                    0.22415566444396973,
+                                    0.21849316358566284,
+                                    -0.949744701385498
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Normal": [
+                                    0.10340604931116104,
+                                    -0.9829235672950745,
+                                    -0.1522117406129837
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        -0.9041765928268433
+                                    ]
+                                },
+                                "Normal": [
+                                    0.2683301568031311,
+                                    -0.9301823973655701,
+                                    -0.2505188286304474
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.5441527366638184,
+                                    -0.7839329838752747,
+                                    0.29890957474708557
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -2.760857105255127,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        -1.8221096992492676,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Normal": [
+                                    0.998038649559021,
+                                    -0.06259865313768387,
+                                    0.0003731601173058152
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Normal": [
+                                    0.3855469226837158,
+                                    0.8959236741065979,
+                                    -0.22062252461910248
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.47000378370285034,
+                                    0.8457215428352356,
+                                    0.25268861651420593
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        1.5338811874389648,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8996396660804749,
+                                    -0.41770970821380615,
+                                    0.1271507292985916
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        -0.28264927864074707,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8632737398147583,
+                                    -0.28275570273399353,
+                                    0.4181000888347626
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17938030222105494865,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -10.539752006530762,
+                            8.524083137512207,
+                            0.5394515991210938
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            45.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1718706955474]": {
+            "Id": "Entity_[1718706955474]",
+            "Name": "obstacle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13057045169228645399
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13411036767855702351
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10972783170601919672
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12287320595271726661
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 485970048323898381
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5165334394677951625
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14363998499098911728
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 352398226519968801
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 5870626706199786896,
+                    "WhiteBoxData": "T01UQggAAAAMAAAAEgAAAAAWIKiGv9DtkL8PvLM/JFTxPiymcL9ynRRAcLIXPzaNfz/isVBAyuA7wMnDbEC0W0g/2/fPvwoPJL84VoS/AAAAPwAAAL8AAAC/BOQoQKYUfD8AAAC/l3NiwEwmaUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDsC96jwWU7g/IKjGPx54Z7+Ak729bBr/vuQ66b8WU7g/IKjGP9Dt0D+Ak729bBr/vsrgW0DJw0zAgJO9veKxMMAgqMY/0O3QP2i3kL7Jw0zABOQIwEwp+L7MOYFAAACAPwAAAAAAAIA/BOQIwAAAgD/MOYFATCZJwAAAAAAAAIA/7vsHQIUHkj8AAAAAAACAP8w5gUBMJknAOFbEP4UHkj/Aveo85DrpvwAAgD8AAIA/7vsHQDhWxD/Aveo85Drpv+77B0A4VsQ/Hnhnv9Dt0D+Ak7294rEwwATkCMAAAIA/AAAAAAAAgD/isTDAbBr/vsrgW0Bot5C+AACAP0wmScAE5AjAAACAP8rgW0Bot5C+AACAP0wmScAeeGe/0O3QP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWwx3kvlEqvL5z/FA/LAAlv1esHr5mqz8/AAAAgAAAAAAAAIC/EIllPqy8Xz54InO/jcbTPeGge79l3Ru+kmKJPm8gbr8BRIC+mE0LP9WvSL+tCpk+dn9/P7kzgL20pMM5aGbFPkFbZT/f6mG+VqTwPjWBWD9nYIE+yU5mvwze1b7NMwI+gv9cv1vFkL43EdY+wsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA",
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.44553956389427185,
+                                    -0.3675103485584259,
+                                    0.8163520693778992
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.6445338726043701,
+                                    -0.15495429933071136,
+                                    0.7487090826034546
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        -0.4846900701522827
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Normal": [
+                                    0.22415566444396973,
+                                    0.21849316358566284,
+                                    -0.949744701385498
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Normal": [
+                                    0.10340604931116104,
+                                    -0.9829235672950745,
+                                    -0.1522117406129837
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        -0.9041765928268433
+                                    ]
+                                },
+                                "Normal": [
+                                    0.2683301568031311,
+                                    -0.9301823973655701,
+                                    -0.2505188286304474
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.5441527366638184,
+                                    -0.7839329838752747,
+                                    0.29890957474708557
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -2.760857105255127,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        -1.8221096992492676,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Normal": [
+                                    0.998038649559021,
+                                    -0.06259865313768387,
+                                    0.0003731601173058152
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Normal": [
+                                    0.3855469226837158,
+                                    0.8959236741065979,
+                                    -0.22062252461910248
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.47000378370285034,
+                                    0.8457215428352356,
+                                    0.25268861651420593
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        1.5338811874389648,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8996396660804749,
+                                    -0.41770970821380615,
+                                    0.1271507292985916
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        -0.28264927864074707,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8632737398147583,
+                                    -0.28275570273399353,
+                                    0.4181000888347626
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17938030222105494865,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            9.616083145141602,
+                            0.5394515991210938
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1727296890066]": {
+            "Id": "Entity_[1727296890066]",
+            "Name": "obstacle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13057045169228645399
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13411036767855702351
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10972783170601919672
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12287320595271726661
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 485970048323898381
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5165334394677951625
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14363998499098911728
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 352398226519968801
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 5870626706199786896,
+                    "WhiteBoxData": "T01UQggAAAAMAAAAEgAAAAAWIKiGv9DtkL8PvLM/JFTxPiymcL9ynRRAcLIXPzaNfz/isVBAyuA7wMnDbEC0W0g/2/fPvwoPJL84VoS/AAAAPwAAAL8AAAC/BOQoQKYUfD8AAAC/l3NiwEwmaUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDsC96jwWU7g/IKjGPx54Z7+Ak729bBr/vuQ66b8WU7g/IKjGP9Dt0D+Ak729bBr/vsrgW0DJw0zAgJO9veKxMMAgqMY/0O3QP2i3kL7Jw0zABOQIwEwp+L7MOYFAAACAPwAAAAAAAIA/BOQIwAAAgD/MOYFATCZJwAAAAAAAAIA/7vsHQIUHkj8AAAAAAACAP8w5gUBMJknAOFbEP4UHkj/Aveo85DrpvwAAgD8AAIA/7vsHQDhWxD/Aveo85Drpv+77B0A4VsQ/Hnhnv9Dt0D+Ak7294rEwwATkCMAAAIA/AAAAAAAAgD/isTDAbBr/vsrgW0Bot5C+AACAP0wmScAE5AjAAACAP8rgW0Bot5C+AACAP0wmScAeeGe/0O3QP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWwx3kvlEqvL5z/FA/LAAlv1esHr5mqz8/AAAAgAAAAAAAAIC/EIllPqy8Xz54InO/jcbTPeGge79l3Ru+kmKJPm8gbr8BRIC+mE0LP9WvSL+tCpk+dn9/P7kzgL20pMM5aGbFPkFbZT/f6mG+VqTwPjWBWD9nYIE+yU5mvwze1b7NMwI+gv9cv1vFkL43EdY+wsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA",
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.44553956389427185,
+                                    -0.3675103485584259,
+                                    0.8163520693778992
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.6445338726043701,
+                                    -0.15495429933071136,
+                                    0.7487090826034546
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        -0.4846900701522827
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Normal": [
+                                    0.22415566444396973,
+                                    0.21849316358566284,
+                                    -0.949744701385498
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Normal": [
+                                    0.10340604931116104,
+                                    -0.9829235672950745,
+                                    -0.1522117406129837
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        -0.9041765928268433
+                                    ]
+                                },
+                                "Normal": [
+                                    0.2683301568031311,
+                                    -0.9301823973655701,
+                                    -0.2505188286304474
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.5441527366638184,
+                                    -0.7839329838752747,
+                                    0.29890957474708557
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -2.760857105255127,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        -1.8221096992492676,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Normal": [
+                                    0.998038649559021,
+                                    -0.06259865313768387,
+                                    0.0003731601173058152
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Normal": [
+                                    0.3855469226837158,
+                                    0.8959236741065979,
+                                    -0.22062252461910248
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.47000378370285034,
+                                    0.8457215428352356,
+                                    0.25268861651420593
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        1.5338811874389648,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8996396660804749,
+                                    -0.41770970821380615,
+                                    0.1271507292985916
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        -0.28264927864074707,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8632737398147583,
+                                    -0.28275570273399353,
+                                    0.4181000888347626
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17938030222105494865,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            8.105514526367188,
+                            -3.0723342895507813,
+                            0.5394515991210938
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            215.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1735886824658]": {
+            "Id": "Entity_[1735886824658]",
+            "Name": "obstacle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13057045169228645399
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13411036767855702351
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10972783170601919672
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12287320595271726661
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 485970048323898381
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5165334394677951625
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14363998499098911728
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 352398226519968801
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 5870626706199786896,
+                    "WhiteBoxData": "T01UQggAAAAMAAAAEgAAAAAWIKiGv9DtkL8PvLM/JFTxPiymcL9ynRRAcLIXPzaNfz/isVBAyuA7wMnDbEC0W0g/2/fPvwoPJL84VoS/AAAAPwAAAL8AAAC/BOQoQKYUfD8AAAC/l3NiwEwmaUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDsC96jwWU7g/IKjGPx54Z7+Ak729bBr/vuQ66b8WU7g/IKjGP9Dt0D+Ak729bBr/vsrgW0DJw0zAgJO9veKxMMAgqMY/0O3QP2i3kL7Jw0zABOQIwEwp+L7MOYFAAACAPwAAAAAAAIA/BOQIwAAAgD/MOYFATCZJwAAAAAAAAIA/7vsHQIUHkj8AAAAAAACAP8w5gUBMJknAOFbEP4UHkj/Aveo85DrpvwAAgD8AAIA/7vsHQDhWxD/Aveo85Drpv+77B0A4VsQ/Hnhnv9Dt0D+Ak7294rEwwATkCMAAAIA/AAAAAAAAgD/isTDAbBr/vsrgW0Bot5C+AACAP0wmScAE5AjAAACAP8rgW0Bot5C+AACAP0wmScAeeGe/0O3QP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWwx3kvlEqvL5z/FA/LAAlv1esHr5mqz8/AAAAgAAAAAAAAIC/EIllPqy8Xz54InO/jcbTPeGge79l3Ru+kmKJPm8gbr8BRIC+mE0LP9WvSL+tCpk+dn9/P7kzgL20pMM5aGbFPkFbZT/f6mG+VqTwPjWBWD9nYIE+yU5mvwze1b7NMwI+gv9cv1vFkL43EdY+wsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA",
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.44553956389427185,
+                                    -0.3675103485584259,
+                                    0.8163520693778992
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.6445338726043701,
+                                    -0.15495429933071136,
+                                    0.7487090826034546
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        -0.4846900701522827
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Normal": [
+                                    0.22415566444396973,
+                                    0.21849316358566284,
+                                    -0.949744701385498
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Normal": [
+                                    0.10340604931116104,
+                                    -0.9829235672950745,
+                                    -0.1522117406129837
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        -0.9041765928268433
+                                    ]
+                                },
+                                "Normal": [
+                                    0.2683301568031311,
+                                    -0.9301823973655701,
+                                    -0.2505188286304474
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.5441527366638184,
+                                    -0.7839329838752747,
+                                    0.29890957474708557
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -2.760857105255127,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        -1.8221096992492676,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Normal": [
+                                    0.998038649559021,
+                                    -0.06259865313768387,
+                                    0.0003731601173058152
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Normal": [
+                                    0.3855469226837158,
+                                    0.8959236741065979,
+                                    -0.22062252461910248
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.47000378370285034,
+                                    0.8457215428352356,
+                                    0.25268861651420593
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        1.5338811874389648,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8996396660804749,
+                                    -0.41770970821380615,
+                                    0.1271507292985916
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        -0.28264927864074707,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8632737398147583,
+                                    -0.28275570273399353,
+                                    0.4181000888347626
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17938030222105494865,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -9.68016242980957,
+                            -11.392019271850586,
+                            0.5394515991210938
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1744476759250]": {
+            "Id": "Entity_[1744476759250]",
+            "Name": "obstacle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13057045169228645399
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13411036767855702351
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10972783170601919672
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12287320595271726661
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 485970048323898381
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5165334394677951625
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14363998499098911728
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 352398226519968801
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 5870626706199786896,
+                    "WhiteBoxData": "T01UQggAAAAMAAAAEgAAAAAWIKiGv9DtkL8PvLM/JFTxPiymcL9ynRRAcLIXPzaNfz/isVBAyuA7wMnDbEC0W0g/2/fPvwoPJL84VoS/AAAAPwAAAL8AAAC/BOQoQKYUfD8AAAC/l3NiwEwmaUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDsC96jwWU7g/IKjGPx54Z7+Ak729bBr/vuQ66b8WU7g/IKjGP9Dt0D+Ak729bBr/vsrgW0DJw0zAgJO9veKxMMAgqMY/0O3QP2i3kL7Jw0zABOQIwEwp+L7MOYFAAACAPwAAAAAAAIA/BOQIwAAAgD/MOYFATCZJwAAAAAAAAIA/7vsHQIUHkj8AAAAAAACAP8w5gUBMJknAOFbEP4UHkj/Aveo85DrpvwAAgD8AAIA/7vsHQDhWxD/Aveo85Drpv+77B0A4VsQ/Hnhnv9Dt0D+Ak7294rEwwATkCMAAAIA/AAAAAAAAgD/isTDAbBr/vsrgW0Bot5C+AACAP0wmScAE5AjAAACAP8rgW0Bot5C+AACAP0wmScAeeGe/0O3QP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWwx3kvlEqvL5z/FA/LAAlv1esHr5mqz8/AAAAgAAAAAAAAIC/EIllPqy8Xz54InO/jcbTPeGge79l3Ru+kmKJPm8gbr8BRIC+mE0LP9WvSL+tCpk+dn9/P7kzgL20pMM5aGbFPkFbZT/f6mG+VqTwPjWBWD9nYIE+yU5mvwze1b7NMwI+gv9cv1vFkL43EdY+wsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA",
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.44553956389427185,
+                                    -0.3675103485584259,
+                                    0.8163520693778992
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.6445338726043701,
+                                    -0.15495429933071136,
+                                    0.7487090826034546
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        -0.4846900701522827
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Normal": [
+                                    0.22415566444396973,
+                                    0.21849316358566284,
+                                    -0.949744701385498
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Normal": [
+                                    0.10340604931116104,
+                                    -0.9829235672950745,
+                                    -0.1522117406129837
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        -0.9041765928268433
+                                    ]
+                                },
+                                "Normal": [
+                                    0.2683301568031311,
+                                    -0.9301823973655701,
+                                    -0.2505188286304474
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.5441527366638184,
+                                    -0.7839329838752747,
+                                    0.29890957474708557
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -2.760857105255127,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        -1.8221096992492676,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Normal": [
+                                    0.998038649559021,
+                                    -0.06259865313768387,
+                                    0.0003731601173058152
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Normal": [
+                                    0.3855469226837158,
+                                    0.8959236741065979,
+                                    -0.22062252461910248
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.47000378370285034,
+                                    0.8457215428352356,
+                                    0.25268861651420593
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        1.5338811874389648,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8996396660804749,
+                                    -0.41770970821380615,
+                                    0.1271507292985916
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        -0.28264927864074707,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8632737398147583,
+                                    -0.28275570273399353,
+                                    0.4181000888347626
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17938030222105494865,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.4608030319213867,
+                            22.007450103759766,
+                            0.5394515991210938
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            89.99994659423828
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1753066693842]": {
+            "Id": "Entity_[1753066693842]",
+            "Name": "obstacle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13057045169228645399
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13411036767855702351
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10972783170601919672
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12287320595271726661
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 485970048323898381
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5165334394677951625
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14363998499098911728
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 352398226519968801
+                },
+                "EditorWhiteBoxComponent": {
+                    "$type": "EditorWhiteBoxComponent",
+                    "Id": 5870626706199786896,
+                    "WhiteBoxData": "T01UQggAAAAMAAAAEgAAAAAWIKiGv9DtkL8PvLM/JFTxPiymcL9ynRRAcLIXPzaNfz/isVBAyuA7wMnDbEC0W0g/2/fPvwoPJL84VoS/AAAAPwAAAL8AAAC/BOQoQKYUfD8AAAC/l3NiwEwmaUAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDsC96jwWU7g/IKjGPx54Z7+Ak729bBr/vuQ66b8WU7g/IKjGP9Dt0D+Ak729bBr/vsrgW0DJw0zAgJO9veKxMMAgqMY/0O3QP2i3kL7Jw0zABOQIwEwp+L7MOYFAAACAPwAAAAAAAIA/BOQIwAAAgD/MOYFATCZJwAAAAAAAAIA/7vsHQIUHkj8AAAAAAACAP8w5gUBMJknAOFbEP4UHkj/Aveo85DrpvwAAgD8AAIA/7vsHQDhWxD/Aveo85Drpv+77B0A4VsQ/Hnhnv9Dt0D+Ak7294rEwwATkCMAAAIA/AAAAAAAAgD/isTDAbBr/vsrgW0Bot5C+AACAP0wmScAE5AjAAACAP8rgW0Bot5C+AACAP0wmScAeeGe/0O3QP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWwx3kvlEqvL5z/FA/LAAlv1esHr5mqz8/AAAAgAAAAAAAAIC/EIllPqy8Xz54InO/jcbTPeGge79l3Ru+kmKJPm8gbr8BRIC+mE0LP9WvSL+tCpk+dn9/P7kzgL20pMM5aGbFPkFbZT/f6mG+VqTwPjWBWD9nYIE+yU5mvwze1b7NMwI+gv9cv1vFkL43EdY+wsATdmVydGV4LWhpZGRlbi1wcm9wcwRib29sAQAAAADGwA1wb2x5Z29uLXByb3BzIldoaXRlQm94OjpGYWNlSGFuZGxlUG9seWdvbk1hcHBpbmfEAAAADAAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAAQAAAAIAAAAAAAAAAQAAAAgAAAACAAAACAAAAAkAAAACAAAAAgAAAAIAAAADAAAACQAAAAIAAAAIAAAACQAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAABAAAAAIAAAAEAAAABQAAAAsAAAACAAAACgAAAAsAAAAFAAAAAgAAAAQAAAAFAAAABgAAAAIAAAAGAAAABwAAABwA",
+                    "RenderData": {
+                        "Faces": [
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.44553956389427185,
+                                    -0.3675103485584259,
+                                    0.8163520693778992
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.6445338726043701,
+                                    -0.15495429933071136,
+                                    0.7487090826034546
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        -0.4846900701522827
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.0,
+                                    0.0,
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Normal": [
+                                    0.22415566444396973,
+                                    0.21849316358566284,
+                                    -0.949744701385498
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Normal": [
+                                    0.10340604931116104,
+                                    -0.9829235672950745,
+                                    -0.1522117406129837
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        2.124751567840576,
+                                        1.5338811874389648
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        0.028654932975769043,
+                                        -1.8221096992492676
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        1.5520057678222656,
+                                        -0.9041765928268433
+                                    ]
+                                },
+                                "Normal": [
+                                    0.2683301568031311,
+                                    -0.9301823973655701,
+                                    -0.2505188286304474
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        0.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.5441527366638184,
+                                    -0.7839329838752747,
+                                    0.29890957474708557
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        0.5,
+                                        -0.5,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -2.760857105255127,
+                                        -0.49824845790863037
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.47134506702423096,
+                                        -0.9400355815887451,
+                                        2.3221096992492676
+                                    ],
+                                    "UV": [
+                                        -1.8221096992492676,
+                                        1.4400355815887451
+                                    ]
+                                },
+                                "Normal": [
+                                    0.998038649559021,
+                                    -0.06259865313768387,
+                                    0.0003731601173058152
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        4.038305282592773,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Normal": [
+                                    0.3855469226837158,
+                                    0.8959236741065979,
+                                    -0.22062252461910248
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        2.6389169692993164,
+                                        0.9846900701522827,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        -2.1389169692993164,
+                                        1.0
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        3.4355950355529785,
+                                        -0.28264927864074707
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        0.5925664901733398,
+                                        0.9982484579086304,
+                                        3.260857105255127
+                                    ],
+                                    "UV": [
+                                        -0.09256649017333984,
+                                        -2.760857105255127
+                                    ]
+                                },
+                                "Normal": [
+                                    0.47000378370285034,
+                                    0.8457215428352356,
+                                    0.25268861651420593
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.6247514486312866,
+                                        -0.6408544778823853,
+                                        -1.0338811874389648
+                                    ],
+                                    "UV": [
+                                        1.5338811874389648,
+                                        1.1408544778823853
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8996396660804749,
+                                    -0.41770970821380615,
+                                    0.1271507292985916
+                                ]
+                            },
+                            {
+                                "Vertex1": {
+                                    "Position": [
+                                        -3.5383050441741943,
+                                        3.6429624557495117,
+                                        -0.5
+                                    ],
+                                    "UV": [
+                                        1.0,
+                                        -3.1429624557495117
+                                    ]
+                                },
+                                "Vertex2": {
+                                    "Position": [
+                                        -1.0520057678222656,
+                                        -1.1322574615478516,
+                                        1.4041765928268433
+                                    ],
+                                    "UV": [
+                                        -0.9041765928268433,
+                                        1.6322574615478516
+                                    ]
+                                },
+                                "Vertex3": {
+                                    "Position": [
+                                        -2.9355950355529785,
+                                        3.6994497776031494,
+                                        0.7826492786407471
+                                    ],
+                                    "UV": [
+                                        -0.28264927864074707,
+                                        -3.1994497776031494
+                                    ]
+                                },
+                                "Normal": [
+                                    -0.8632737398147583,
+                                    -0.28275570273399353,
+                                    0.4181000888347626
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17938030222105494865,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            11.883999824523926,
+                            15.888189315795898,
+                            0.5394515991210938
+                        ]
+                    }
+                }
+            }
+        },
         "Entity_[359586631594]": {
             "Id": "Entity_[359586631594]",
             "Name": "RoboBall",
@@ -2391,6 +5646,12 @@
                     "ScriptComponent": {
                         "Properties": {
                             "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 3313362053,
+                                    "name": "AngularVelocity",
+                                    "value": 0.2
+                                },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 473299230,
