@@ -31,7 +31,7 @@ Now there should be an even bounce
 
 Now copy the forward impulse from tick to the collision function
 
-```
+```lua
 		local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
 		local ImpulseSize = self.Properties.ImpulseSize
 		local x_new = ImpulseSize * math.cos(Rot.z)
@@ -72,3 +72,15 @@ Play the game and press the game play
 
 The heading goes very fast so change onheld back to onpressed and add a wrap function to the script:
 
+```lua
+function WrapAngle(angle)
+    return (angle + math.pi) % (2 * math.pi) - math.pi
+end
+```
+
+and apply this to the control heading
+
+```lua
+
+		self.ControlHeading = WrapAngle(self.ControlHeading + value*self.Properties.AngularVelocity)
+```

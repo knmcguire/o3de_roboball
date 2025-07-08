@@ -231,7 +231,8 @@
                         "Target Acquirers": [
                             {
                                 "$type": "AcquireByEntityId",
-                                "Entity Target": "Entity_[1500015521335]"
+                                "Entity Target": "Entity_[1500015521335]",
+                                "Use Target Rotation": false
                             }
                         ],
                         "Look-at Behaviors": [
@@ -732,7 +733,7 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 920817669,
                                     "name": "ImpulseSize",
-                                    "value": 1.0
+                                    "value": 1000.0
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyString",

@@ -8,6 +8,10 @@ local Control = {
 	}
 }
 
+function WrapAngle(angle)
+    return (angle + math.pi) % (2 * math.pi) - math.pi
+end
+
 function Control:OnActivate()
 	self.TickNotificationBus = TickBus.Connect(self);
 	local inputBusId = InputEventNotificationId(self.Properties.InputEventName)
@@ -49,11 +53,15 @@ function Control:OnCollisionBegin(collision)
 	end
 end
 
+
+
 function Control:OnTick(deltaTime, currentTime)
 	local Rot = TransformBus.Event.GetWorldRotation(self.entityId); 
 	local ImpulseSize = self.Properties.ImpulseSize
-	local x_new = ImpulseSize * math.cos(Rot.z)
-	local y_new = ImpulseSize * math.sin(Rot.z)
+	
+	
+	local x_new = ImpulseSize * math.cos(self.ControlHeading)
+	local y_new = ImpulseSize * math.sin(self.ControlHeading)
 	--RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new, 0.0));
 	
 	local RotVel = self.Properties.RotationDirection * self.Properties.AngularVelocity;
@@ -65,7 +73,7 @@ end
 function Control:OnPressed(value)
 	self.Properties.RotationDirection = value
 		Debug.Log(' button pressed');
-		self.ControlHeading = self.ControlHeading + value*self.Properties.AngularVelocity
+		self.ControlHeading = WrapAngle(self.ControlHeading + value*self.Properties.AngularVelocity)
 		Debug.Log(tostring(self.ControlHeading))
 		
 
