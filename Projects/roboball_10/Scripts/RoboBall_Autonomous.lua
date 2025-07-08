@@ -41,13 +41,16 @@ function Autonomous:OnCollisionBegin(collision)
 		local x_new = ForwardImpulse * math.cos(self.ControlHeading)
 		local y_new = ForwardImpulse * math.sin(self.ControlHeading)
 		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new,BounceImpulse));
+	else
+		Debug.Log('obstacle')
+
 	end
 end
 
 
 function Autonomous:OnPressed(value)
 	self.ControlHeading = WrapAngle(self.ControlHeading + value*self.Properties.AngularVelocity)
- end
+end
 
 
 function Autonomous:OnDeactivate()
