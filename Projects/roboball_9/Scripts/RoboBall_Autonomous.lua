@@ -28,11 +28,20 @@ end
 function Control:OnCollisionBegin(collision)
 	-- Debug.Log('Ouch!')
 	if self.first_run==false then
-		self.Properties.GroundId = collision:GetBody2EntityId()
+		--self.Properties.GroundId = collision:GetBody2EntityId()
 		self.first_run = true
 	end
 	if collision:GetBody2EntityId() == self.Properties.GroundId then
-		Debug.Log(' Floor')
+		local velocity = RigidBodyRequestBus.Event.GetLinearVelocity (self.entityId);
+		Debug.Log(tostring(velocity));
+
+		local mass = RigidBodyRequestBus.Event.GetMass(self.entityId);
+		local BounceImpulse = mass * (6 - velocity.z)
+		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(0,0,BounceImpulse));
+
+		Debug.Log(' Floor');
+		Debug.Log(tostring(BounceImpulse));
+		 
 	end
 end
 
@@ -41,10 +50,10 @@ function Control:OnTick(deltaTime, currentTime)
 	local ImpulseSize = self.Properties.ImpulseSize
 	local x_new = ImpulseSize * math.cos(Rot.z)
 	local y_new = ImpulseSize * math.sin(Rot.z)
-	RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new, 0.0));
+	--RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new, 0.0));
 	
 	local RotVel = self.Properties.RotationDirection * self.Properties.AngularVelocity;
-	RigidBodyRequestBus.Event.SetAngularVelocity (self.entityId, Vector3(0.0, 0.0, RotVel));
+	--RigidBodyRequestBus.Event.SetAngularVelocity (self.entityId, Vector3(0.0, 0.0, RotVel));
 	self.Properties.RotationDirection = 0.0
 
 end
