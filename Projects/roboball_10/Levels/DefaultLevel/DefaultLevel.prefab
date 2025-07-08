@@ -2393,9 +2393,9 @@
                             "Properties": [
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 3313362053,
-                                    "name": "AngularVelocity",
-                                    "value": 0.2
+                                    "id": 473299230,
+                                    "name": "AvoidAngle",
+                                    "value": 2.4
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
