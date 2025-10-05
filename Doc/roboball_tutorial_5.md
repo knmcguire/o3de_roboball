@@ -108,6 +108,8 @@ function Control:OnPressed (value)
  end
 ```
 
+In the script component, there is a field now called `InputEventName`, fill in `Control`
+
 Now you should be able to control the ball somewhat with the control keys, which should result in this with ImpulseSize being 5.0.
 
 See the resulting script here:
@@ -149,5 +151,5 @@ Now you can control your ball!
 
 ![ball_controll](images/ball_control.gif)
 
-We are not done here yet, so go ahead to part 6! 
+We are not done here yet, so go ahead to [part 6](roboball_tutorial_6.md)! 
 

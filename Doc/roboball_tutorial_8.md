@@ -7,7 +7,7 @@ So if you finished section 7 you should be able to see this:
 
 Now let's work with collisions!
 
-The ball is bouncing around and could be hitting things but it is not doing anything to it. So let's work with that.
+The ball is bouncing around, but it is constantly hitting the floor but it is not doing anything to it. So let's work with that.
 
 In the Roboball_control.lua add a collision event to OnActivate()
 
@@ -133,21 +133,7 @@ And replace the oncollision debug (ouch!) to this:
 
 Play the game again!
 
-Nothing is happening and this is a bug! Let's have a quick fix assuming that the first thing it will hit is the floor.
-
-
-Add the following to OnActivate()
-```lua
-	self.first_run = false
-```
-
-and the following above the entity comparison in OnCollision
-```lua
-	if self.first_run==false then
-		self.Properties.GroundId = collision:GetBody2EntityId()
-		self.first_run = true
-	end
-```
+Nothing is happening... Drag the floor entity from the Entity Outliner into the new field 'GroundID'
 
 Now play the game again, you should see the following:
 
@@ -158,4 +144,6 @@ Now play the game again, you should see the following:
 (Script) -  Floor
 ```
 
+Now the ball knows that it is hitting the floor. We can use that to make a more realistic bounce.
 
+Go ahead and move to [part 9 of the tutorial](roboball_tutorial_9.md).

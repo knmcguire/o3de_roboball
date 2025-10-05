@@ -147,4 +147,4 @@ It might be nice to decouple to z axis from the ball, but that would require som
 
 ![better_camera_rig](images/better_camera_rig.gif)
 
-Jeej! That's end of section 7. 
+Jeej! Time to go to the [next section](roboball_tutorial_7.md)!
