@@ -6,6 +6,7 @@ local Autonomous = {
 		InputEventName = "Control",
 		AngularVelocity = 0.2,
 		GroundId = EntityId(),
+		AvoidAngle = 2.4,
 	}
 }
 
@@ -41,6 +42,8 @@ function Autonomous:OnCollisionBegin(collision)
 		local x_new = ForwardImpulse * math.cos(self.ControlHeading)
 		local y_new = ForwardImpulse * math.sin(self.ControlHeading)
 		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new,BounceImpulse));
+	else
+		self.ControlHeading = WrapAngle(self.ControlHeading + self.Properties.AvoidAngle )
 	end
 end
 
