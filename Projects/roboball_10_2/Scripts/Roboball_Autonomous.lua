@@ -40,7 +40,7 @@ function Autonomous:OnCollisionBegin(collision)
 
 	local goalHeading = math.atan(ToGoalVector.y, ToGoalVector.x);
 	local random_heading = (math.random() - 0.5) 
-	self.ControlHeading = goalHeading--random_heading;
+	self.ControlHeading = goalHeading-random_heading;
 
 	if collision:GetBody2EntityId() == self.Properties.GroundId then
 		local velocity = RigidBodyRequestBus.Event.GetLinearVelocity (self.entityId);
