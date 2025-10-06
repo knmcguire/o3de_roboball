@@ -21,7 +21,8 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Entity_[359586631594]",
-                    "Entity_[942242706570]"
+                    "Entity_[942242706570]",
+                    "Entity_[363423597904]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -688,6 +689,15 @@
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 2212931920,
+                                    "name": "GoalId",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[363423597904]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
                                     "id": 1722610586,
                                     "name": "GroundId",
                                     "value": {
@@ -734,6 +744,121 @@
                             0.0,
                             0.0,
                             2.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[363423597904]": {
+            "Id": "Entity_[363423597904]",
+            "Name": "Goal",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 516308533129342756,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{51B1B230-910D-500D-8BDB-D72F5DA9507E}",
+                                    "subId": 274738010
+                                },
+                                "assetHint": "materialeditor/viewportmodels/beveledcone.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4646242942041534278,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1379196469269014628
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2280659433142300766
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8046839285405888711
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4001774311743801763
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14544919596852558670
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11095660582017744777
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14326700358294613843
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 134672881022862083
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6229956203705581270
+                },
+                "ScriptEditorComponent": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 16011459320935993283,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 679183660,
+                                    "name": "AreaSize",
+                                    "value": 20.0
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{F721BDEA-AD94-5D2A-A29D-936CCA00392A}",
+                                "subId": 1
+                            },
+                            "assetHint": "scripts/goal_respawn.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{F721BDEA-AD94-5D2A-A29D-936CCA00392A}",
+                            "subId": 1
+                        },
+                        "assetHint": "scripts/goal_respawn.luac"
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17968361174745208831,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            5.0,
+                            5.0,
+                            1.5
                         ]
                     }
                 }
@@ -846,21 +971,6 @@
             "Id": "Entity_[916472902794]",
             "Name": "Wall 2",
             "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 18407360961835368961,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
-                                    "subId": 284301017
-                                },
-                                "assetHint": "objects/_primitives/_box_1x1.fbx.azmodel"
-                            }
-                        }
-                    }
-                },
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
                     "Id": 6071613424500234331,
@@ -888,7 +998,24 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8951302616561786878
+                    "Id": 8951302616561786878,
+                    "DisabledComponents": {
+                        "AZ::Render::EditorMeshComponent": {
+                            "$type": "AZ::Render::EditorMeshComponent",
+                            "Id": 18407360961835368961,
+                            "Controller": {
+                                "Configuration": {
+                                    "ModelAsset": {
+                                        "assetId": {
+                                            "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                            "subId": 284301017
+                                        },
+                                        "assetHint": "objects/_primitives/_box_1x1.fbx.azmodel"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -1163,7 +1290,7 @@
         },
         "Entity_[942242706570]": {
             "Id": "Entity_[942242706570]",
-            "Name": "arena",
+            "Name": "Arena",
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",

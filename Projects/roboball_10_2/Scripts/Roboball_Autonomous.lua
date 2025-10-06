@@ -7,6 +7,7 @@ local Autonomous = {
 		AngularVelocity = 0.2,
 		GroundId = EntityId(),
 		AvoidAngle = 2.4,
+		GoalId = EntityId(),
 	}
 }
 
@@ -32,6 +33,15 @@ function Autonomous:OnPhysicsEnabled(entityId)
 end
 
 function Autonomous:OnCollisionBegin(collision)
+
+	local GoalVector = TransformBus.Event.GetWorldTranslation(self.Properties.GoalId);
+	local BallPos = TransformBus.Event.GetWorldTranslation(self.entityId); 
+	local ToGoalVector = GoalVector - BallPos;
+
+	local goalHeading = math.atan(ToGoalVector.y, ToGoalVector.x);
+	local random_heading = (math.random() - 0.5) 
+	self.ControlHeading = goalHeading--random_heading;
+
 	if collision:GetBody2EntityId() == self.Properties.GroundId then
 		local velocity = RigidBodyRequestBus.Event.GetLinearVelocity (self.entityId);
 		local mass = RigidBodyRequestBus.Event.GetMass(self.entityId);
@@ -42,8 +52,7 @@ function Autonomous:OnCollisionBegin(collision)
 		local x_new = ForwardImpulse * math.cos(self.ControlHeading)
 		local y_new = ForwardImpulse * math.sin(self.ControlHeading)
 		RigidBodyRequestBus.Event.ApplyLinearImpulse (self.entityId, Vector3(x_new,y_new,BounceImpulse));
-	else
-		self.ControlHeading = WrapAngle(self.ControlHeading + self.Properties.AvoidAngle )
+
 	end
 end
 
