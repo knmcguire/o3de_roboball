@@ -36,47 +36,47 @@ This tutorial was developed and tested on:
 
 The project is divided into 10 progressive tutorials, each building upon the previous:
 
-### [Tutorial 1: Getting Started](Doc/roboball_tutorial_01.md)
+### [Tutorial 1: Getting Started](Doc/roboball_tutorial_1.md)
 - Project setup and basic entity creation
 - Adding mesh components and transforms
 - Creating your first sphere asset
 
-### [Tutorial 2: Physics Basics](Doc/roboball_tutorial_02.md)
+### [Tutorial 2: Physics Basics](Doc/roboball_tutorial_2.md)
 - Adding PhysX components for realistic physics
 - Configuring colliders and rigid bodies
 - Creating custom bouncy materials
 
-### [Tutorial 3: Lua Scripting Introduction](Doc/roboball_tutorial_03.md)
+### [Tutorial 3: Lua Scripting Introduction](Doc/roboball_tutorial_3.md)
 - Setting up Lua script components
 - Understanding O3DE's Lua API
 - Creating your first "Hello World" script
 
-### [Tutorial 4: Movement and Camera](Doc/roboball_tutorial_04.md)
+### [Tutorial 4: Movement and Camera](Doc/roboball_tutorial_4.md)
 - Implementing linear impulses for movement
 - Adding script properties for customization
 - Setting up camera rigs to follow the ball
 
-### [Tutorial 5: Input Handling](Doc/roboball_tutorial_05.md)
+### [Tutorial 5: Input Handling](Doc/roboball_tutorial_5.md)
 - Creating keyboard input bindings
 - Connecting input events to Lua scripts
 - Implementing player control systems
 
-### [Tutorial 6: Visual Polish](Doc/roboball_tutorial_06.md)
+### [Tutorial 6: Visual Polish](Doc/roboball_tutorial_6.md)
 - Adding textures and materials to objects
 - Implementing rotation with angular impulses
 - Coordinating visual feedback with physics
 
-### [Tutorial 7: Advanced Control](Doc/roboball_tutorial_07.md)
+### [Tutorial 7: Advanced Control](Doc/roboball_tutorial_7.md)
 - Replacing impulses with direct angular velocity control
 - Improving camera rig behaviors
 - Creating more responsive player controls
 
-### [Tutorial 8: Collision Detection](Doc/roboball_tutorial_08.md)
+### [Tutorial 8: Collision Detection](Doc/roboball_tutorial_8.md)
 - Setting up collision event handling
 - Differentiating between collision types
 - Using entity IDs for collision filtering
 
-### [Tutorial 9: Autonomous Behaviors](Doc/roboball_tutorial_09.md)
+### [Tutorial 9: Autonomous Behaviors](Doc/roboball_tutorial_9.md)
 - Creating realistic bounce mechanics with scripted actuators
 - Implementing forward speed control
 - Building autonomous movement patterns
